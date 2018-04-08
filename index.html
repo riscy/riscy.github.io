@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Chris Rayner</title>
+<!-- 2018-04-07 Sat 22:10 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Chris Rayner" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="riscy.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Chris Rayner</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">Search Engine</a></li>
+<li><a href="#sec-2">Optimizing Heuristics</a></li>
+<li><a href="#sec-3">Data Mining Counter-Strike</a></li>
+<li><a href="#sec-4">Emacs Packages</a></li>
+<li><a href="#sec-5">Other Projects</a></li>
+</ul>
+</div>
+</div>
+<script type="text/javascript">
+<!--
+    function reveal(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+
+<p>
+I completed my PhD in computing science at the <a href="https://cs.ualberta.ca">University of Alberta</a> in 2014,
+where I applied optimization to heuristic search.  Today I do deep learning at
+<a href="https://ibm.com">IBM</a>'s Global Chief Data Office.  Before IBM, I was a data scientist at <a href="https://dissolve.com">Dissolve</a>
+working on the search engine.
+</p>
+
+<p>
+This page is a portfolio of sorts &#x2013; find more on <a href="https://github.com/riscy">GitHub</a> and <a href="https://linkedin.com/in/riscy/">LinkedIn</a>.
+</p>
+<hr  />
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Search Engine</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+I was <a href="http://www.dissolve.com">Dissolve</a>'s data scientist from April 2015 to September 2017.  My focus
+was on enhancing the search engine and the data behind it; I also did web dev
+and kept the data warehouse healthy.  My largest contributions centered on
+automation and process improvement &#x2013; key projects include:
+</p>
+<dl class="org-dl">
+<dt> Keyword quality enhancement </dt><dd>I designed a tool to cluster keywords on the
+order of tens of millions across spelling, typographic, and corrupted
+unicode variants.  This enabled outlier detection, data exploration, and
+keyword normalization at an even greater scale than Google's OpenRefine.
+</dd>
+<dt> Recovering same shoot data </dt><dd>I built a machine learning workflow with a
+human in the loop that recovered lost "same shoot" data for hundreds of
+thousands of Dissolve's products.  This feature became a significant
+selling point for the site and has received accolades from customers and
+contributors alike.
+</dd>
+<dt> Domain-specific search vocabulary </dt><dd>I played a key role in building
+Dissolve's industry-leading vocabulary which relates synonyms, hypernyms,
+and ambiguous terms in a graph.  This improved precision and recall,
+massively augmented Elasticsearch's <i>suggest</i> endpoint, and enforced
+important consistency checks.
+</dd>
+<dt> Spam detection </dt><dd>Spam is everywhere.  Dissolve is no different, as
+contributors can be tempted to misapply keywords to get
+their products to appear in more searches.  I led the
+effort to create a dataset and subsequently built a model
+wrapped in a microservice to help detect this spam.
+</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Optimizing Heuristics</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Heuristic search is the backbone of applications like GPS road navigation and
+video game pathfinding.  Here, the "heuristic" is a scalar function that maps
+pairs of states to an estimate of the true distance between them.  A good
+heuristic helps the algorithm to rank candidate paths, which decreases cycle
+times and can lead to higher-quality solutions.
+</p>
+
+<p>
+I posed the task of building better heuristics as a machine learning problem:
+minimizing loss between the true distances and the heuristic's estimates.  I
+derived several instances where performing such an optimization is feasible
+and tractable (or at least approximable).  The solutions tend to have
+intuitive visuals that can be likened to unfolding the search space (pictured,
+courtesy Nathan Sturtevant).
+</p>
+
+
+<div class="figure">
+<p><img src="img/heuristic_optimization.png" alt="heuristic_optimization.png" width="50%" />
+</p>
+</div>
+
+<p>
+This work also revealed unobserved links between heuristic search and other
+computing subfields (numerical optimization, manifold learning,
+multidimensional scaling), provided a framework for analyzing past approaches,
+and boosted search performance in several domains.
+</p>
+<dl class="org-dl">
+<dt> Optimization for Heuristic Search </dt><dd>    Chris Rayner.
+Ph.D. Thesis, University of Alberta, Edmonton, AB, Canada, 2014
+(<a href="pdf/phd_thesis.pdf">doc</a>,
+<a href="javascript:reveal('bibtex_ohs');">bibtex</a>)
+<div id="bibtex_ohs" style="display:none;">
+<div class="org-src-container">
+
+<pre class="src src-bibtex"><span style="color: #88C0D0;">@PhdThesis</span>{<span style="color: #81A1C1;">Rayner-14</span>,
+  <span style="color: #D8DEE9;">author</span>       = {Chris Rayner},
+  <span style="color: #D8DEE9;">title</span>        = {{Optimization for Heuristic Search}},
+  <span style="color: #D8DEE9;">school</span>       = {University of Alberta},
+  <span style="color: #D8DEE9;">year</span>         = 2014
+}
+</pre>
+</div>
+</div>
+</dd>
+<dt> Subset Selection of Search Heuristics </dt><dd>Chris Rayner, Nathan Sturtevant,
+Michael Bowling.  Proceedings of the International Joint Conference on
+Artificial Intelligence (IJCAI), 2013  (<a href="./pdf/RaynerEtAl-13.pdf">doc</a>, <a href="./pdf/RaynerEtAl-13_poster.pdf">poster</a>,
+<a href="javascript:reveal('bibtex_hsubset');">bibtex</a>)
+<div id="bibtex_hsubset" style="display:none;">
+<div class="org-src-container">
+
+<pre class="src src-bibtex"><span style="color: #88C0D0;">@inproceedings</span>{<span style="color: #81A1C1;">RaynerEtAl-13</span>,
+  <span style="color: #D8DEE9;">author</span>       = {Chris Rayner and Nathan
+                  Sturtevant and Michael Bowling},
+  <span style="color: #D8DEE9;">title</span>        = {{Subset Selection of Search Heuristics}},
+  <span style="color: #D8DEE9;">booktitle</span>    = {Proceedings of the International Joint Conference on
+                  Artificial Intelligence (IJCAI)},
+  <span style="color: #D8DEE9;">acceptrate</span>   = {28.0\%},
+  <span style="color: #D8DEE9;">acceptnumbers</span>= {413 of 1473},
+  <span style="color: #D8DEE9;">year</span>         = 2013,
+  <span style="color: #D8DEE9;">address</span>      = {Beijing, China},
+}
+</pre>
+</div>
+</div>
+</dd>
+<dt> Euclidean Heuristic Optimization </dt><dd>Chris Rayner, Michael Bowling, Nathan
+Sturtevant.  Proceedings of the Twenty-Fifth National Conference on
+Artificial Intelligence (AAAI), 2011  (<a href="./pdf/RaynerEtAl-11.pdf">doc</a>, <a href="./pdf/RaynerEtAl-11_slides.pdf">slides</a>, <a href="./pdf/RaynerEtAl-11_poster.pdf">poster</a>,
+<a href="javascript:reveal('bibtex_eho');">bibtex</a>)
+<div id="bibtex_eho" style="display:none;">
+<div class="org-src-container">
+
+<pre class="src src-bibtex"><span style="color: #88C0D0;">@inproceedings</span>{<span style="color: #81A1C1;">RaynerEtAl-11</span>,
+  <span style="color: #D8DEE9;">author</span>                  = {Chris Rayner and Michael Bowling and Nathan Sturtevant},
+  <span style="color: #D8DEE9;">title</span>                   = {{Euclidean Heuristic Optimization}},
+  <span style="color: #D8DEE9;">booktitle</span>               = {Proceedings of the Twenty-Fifth National Conference on
+                              Artificial Intelligence (AAAI)},
+  <span style="color: #D8DEE9;">acceptrateOral</span>          = {24.8\%},
+  <span style="color: #D8DEE9;">acceptrateOralAndPoster</span> = {4.4\%},
+  <span style="color: #D8DEE9;">acceptnumbers</span>           = {242 of 975},
+  <span style="color: #D8DEE9;">year</span>                    = 2011,
+  <span style="color: #D8DEE9;">pages</span>                   = {81--86},
+}
+</pre>
+</div>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Data Mining Counter-Strike</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+An "opening" is a fixed sequence of actions you choose to play out the start
+of a game with.  A familiar example of a game where openings are important is
+chess.  If you have a formal way to recognize an opening, it's easy to query a
+database of games for its success rate, popularity, etc.
+</p>
+
+<p>
+But what about a game like Counter-Strike?  Its fine-grained state space
+precludes identifying openings by way of a table lookup.  But it is still
+reasonable to assume that, with enough recorded gameplay data, you can model
+trends.  I started to do so by creating a visualization of the "next-state
+entropy" of expert players moving through a popular Counter-Strike map.  An
+initial choice is made (hot colors, bottom), invariably followed by fixed
+actions (cold colors), followed by another choice&#x2026;
+</p>
+
+
+<div class="figure">
+<p><img src="img/entropy_visualization.png" alt="entropy_visualization.png" width="50%" />
+</p>
+</div>
+
+<p>
+This high regularity meant that cluster analysis was effective in tightly
+grouping these openings.  The clusters formed the basis for the "opening book"
+I was after, and ultimately gave me categorical data within which I was able
+to find trends.  It also helped me build regressors for predicting player
+movement and classifiers to distinguish human and machine play.
+</p>
+
+<dl class="org-dl">
+<dt> Analysing Openings in Tactical Simulations </dt><dd>Chris Rayner. M.Sc. Thesis,
+   University of Alberta, Edmonton, AB, Canada, 2008
+(<a href="./pdf/msc_thesis.pdf">doc</a>,
+<a href="javascript:reveal('bibtex_css');">bibtex</a>)
+<div id="bibtex_css" style="display:none;">
+<div class="org-src-container">
+
+<pre class="src src-bibtex"><span style="color: #88C0D0;">@MastersThesis</span>{<span style="color: #81A1C1;">Rayner-08</span>,
+  <span style="color: #D8DEE9;">author</span>       = {Chris Rayner},
+  <span style="color: #D8DEE9;">title</span>        = {{Analysing Openings in Tactical Simulations}},
+  <span style="color: #D8DEE9;">school</span>       = {University of Alberta},
+  <span style="color: #D8DEE9;">year</span>         = 2008
+}
+</pre>
+</div>
+</div>
+</dd>
+</dl>
+<p>
+(This research was also featured in the Dec 2008 <i>IEEE Spectrum Magazine</i>
+article <a href="http://spectrum.ieee.org/computing/software/bots-get-smart">Bots Get Smart</a>.)
+</p>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">Emacs Packages</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+I maintain a couple of Emacs packages on <a href="https://melpa.org">MELPA</a> that improve Emacs's REPLs
+(especially <code>shell-mode</code> but also <code>inferior-python-mode</code> and really anything
+built on top of <code>comint-mode</code>):
+</p>
+</div>
+<div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1">shx mode</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+<a href="https://github.com/riscy/shx-for-emacs">shx-mode</a> ("shell-extras") supports a simple markup language for embedding
+graphics and plots within a session (similar to a Jupyter notebook), adds
+event-driven and timed behaviors, and makes it easy for users to write their
+own shell commands in Emacs Lisp.  It also adds a host of interface
+improvements including improved syntax highlighting.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2">bifocal mode</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+When you turn on <a href="https://github.com/riscy/bifocal-mode">bifocal-mode</a>, paging up causes a comint-mode window to be
+split in two.  The large window on top (the head) displays past output, while
+the small window on the bottom (the tail) allows the user to continue to
+interact with the current input and output.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5">Other Projects</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Here are a few implementations and write-ups on some interesting algorithms:
+</p>
+<dl class="org-dl">
+<dt> <a href="https://github.com/riscy/machine_learning_linear_models">Machine Learning with Linear Models</a> </dt><dd>This is a small demo showcasing a few
+distinct linear models for mapping vectors of observations <i>X</i> to vectors
+of outcomes <i>Y</i>. Different assumptions about the data can lead to
+different levels of performance – sometimes drastically.
+</dd>
+<dt> <a href="https://github.com/riscy/a_star_on_grids">Best practices for A* on grids</a> </dt><dd>I learned a bit about writing a good
+pathfinder in grad school.  Here's a list of ways to improve your A*
+implementation, focusing on pathfinding on four- and eight-connected
+grids.  It's pitched at hobbyists and anyone looking for ways to make
+their existing code a bit faster, and has <a href="https://github.com/riscy/a_star_on_grids/tree/master/src">accompanying code in C++</a>.
+</dd>
+<dt> <a href="https://github.com/riscy/sammon_mapping_gsl">Sammon mapping</a> </dt><dd>Given a Euclidean distance matrix, there is a <i>closed
+form</i> to find the corresponding points.  This computation
+is a key step in many embedding algorithms. But when
+you're given a distance matrix that is non-Euclidean, you
+might have to do something else.  The Sammon Map was an
+early attempt at this.  This is a C implementation using
+BLAS (requires the GNU scientific library) that also
+supports nonlinear dimensionality reduction.
+</dd>
+</dl>
+
+<p>
+Beyond those listed above, I'm grateful to have been a part of a number of
+other projects spanning computer poker, subjective robotics, and real-time
+heuristic search.  Some resulted in publication:
+</p>
+
+<dl class="org-dl">
+<dt> On Case Base Formation in Real-Time Heuristic Search </dt><dd>Vadim Bulitko,
+Chris Rayner, Ramon Lawrence. Proceedings of the Artificial
+Intelligence and Interactive Digital Entertainment Conference
+(AIIDE), 2012  (<a href="./pdf/BulitkoEtAl-12.pdf">doc</a>,
+<a href="javascript:reveal('bibtex_casebase');">bibtex</a>)
+<div id="bibtex_casebase" style="display:none;">
+<div class="org-src-container">
+
+<pre class="src src-bibtex"><span style="color: #88C0D0;">@inproceedings</span>{<span style="color: #81A1C1;">BulitkoEtAl-12</span>,
+  <span style="color: #D8DEE9;">author</span>       = {Vadim Bulitko and Chris Rayner and Ramon Lawrence},
+  <span style="color: #D8DEE9;">title</span>        = {{On Case Base Formation in Real-Time Heuristic
+                  Search}},
+  <span style="color: #D8DEE9;">booktitle</span>    = {Proceedings of the Artificial Intelligence and
+                  Interactive Digital Entertainment Conference (AIIDE)},
+  <span style="color: #D8DEE9;">acceptrate</span>   = {54.2\%},
+  <span style="color: #D8DEE9;">year</span>         = 2012,
+}
+</pre>
+</div>
+</div>
+</dd>
+<dt> The Critterbot: a Subjective Robotic Project </dt><dd>Marc Bellemare, Michael
+Bowling, Thomas Degris, Anna Koop, Chris Rayner, Michael Sokolsky,
+Richard Sutton, Adam White, Eric Wiewiora.  <i>Multidisciplinary
+Symposium on Reinforcement Learning (MSRL)</i>, 2009  (<a href="./pdf/BellemareEtAl-09.pdf">doc</a>,
+<a href="javascript:reveal('bibtex_cbot');">bibtex</a>)
+<div id="bibtex_cbot" style="display:none;">
+<div class="org-src-container">
+
+<pre class="src src-bibtex"><span style="color: #88C0D0;">@inproceedings</span>{<span style="color: #81A1C1;">BellemareEtAl-09</span>,
+  <span style="color: #D8DEE9;">author</span>       = {Marc Bellemare and Michael Bowling and Thomas Degris
+                  and Anna Koop and Chris Rayner and Michael Sokolsky
+                  and Richard Sutton and Adam White and Eric Wiewiora},
+  <span style="color: #D8DEE9;">title</span>        = {{The Critterbot: a Subjetive Robotic Project}},
+  <span style="color: #D8DEE9;">booktitle</span>    = {Multidisciplinary Symposium on Reinforcement Learning
+                  (MSRL)},
+  <span style="color: #D8DEE9;">year</span>         = 2009,
+}
+</pre>
+</div>
+</div>
+</dd>
+<dt> Real-Time Heuristic Search with a Priority Queue </dt><dd>Chris Rayner,
+Katherine Davison, Vadim Bulitko, Kenneth Anderson, Jieshan Lu. In
+Proceedings of the International Joint Conference on Artificial
+Intelligence (IJCAI), 2007  (<a href="./pdf/RaynerEtAl-07.pdf">doc</a>,
+<a href="javascript:reveal('bibtex_plrtaIJCAI');">bibtex</a>)
+<div id="bibtex_plrtaIJCAI" style="display:none;">
+<div class="org-src-container">
+
+<pre class="src src-bibtex"><span style="color: #88C0D0;">@inproceedings</span>{<span style="color: #81A1C1;">RaynerEtAl-07</span>,
+  <span style="color: #D8DEE9;">author</span>       = {Chris Rayner and Katherine Davison and Vadim Bulitko and Kenneth
+                  Anderson and Jieshan Lu},
+  <span style="color: #D8DEE9;">title</span>        = {{Real-Time Heuristic Search with a Priority Queue}},
+  <span style="color: #D8DEE9;">acceptrate</span>   = {35\%},
+  <span style="color: #D8DEE9;">booktitle</span>    = {Proceedings of the International Joint Conference on Artificial
+                  Intelligence IJCAI)},
+  <span style="color: #D8DEE9;">year</span>         = 2007,
+  <span style="color: #D8DEE9;">pages</span>        = {2372--2377}
+}
+</pre>
+</div>
+</div>
+</dd>
+<dt> Bayes' Bluff: Opponent Modelling in Poker </dt><dd>Finnegan Southey, Michael
+Bowling, Bryce Larson, Carmelo Piccione, Neil Burch, Darse Billings,
+Chris Rayner. Proceedings of the Twenty-First Conference on Uncertainty
+in Artificial Intelligence (UAI), 2005 (<a href="./pdf/SoutheyEtAl-05.pdf">doc</a>,
+<a href="javascript:reveal('bibtex_poker');">bibtex</a>)
+<div id="bibtex_poker" style="display:none;">
+<div class="org-src-container">
+
+<pre class="src src-bibtex"><span style="color: #88C0D0;">@inproceedings</span>{<span style="color: #81A1C1;">SoutheyEtAl-05</span>,
+  <span style="color: #D8DEE9;">author</span>       = {Finnegan Southey and Michael Bowling and Bryce Larson and
+                  Carmelo Piccione and Neil Burch and Darse Billings and Chris
+                  Rayner},
+  <span style="color: #D8DEE9;">title</span>        = {{Bayes' Bluff: Opponent Modelling in Poker}},
+  <span style="color: #D8DEE9;">booktitle</span>    = {Proceedings of the Twenty-First Conference on Uncertainty in
+                  Artificial Intelligence (UAI)},
+  <span style="color: #D8DEE9;">pages</span>        = {550--558},
+  <span style="color: #D8DEE9;">year</span>         = 2005,
+}
+</pre>
+</div>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</body>
+</html>

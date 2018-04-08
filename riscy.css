@@ -1,0 +1,170 @@
+/* -*- eval: (rainbow-mode 1) -*- */
+
+body {
+  margin:0;
+  font:78% "Lucida Grande", sans-serif;
+  line-height:1.5em;
+  background:#f3f3f3;
+  color:#222;
+}
+
+#content {
+  max-width:50em;
+  background:#ffffff;
+  padding:20px 20px 20px 20px;
+  margin:0 auto;
+  border-bottom: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Verdana", sans-serif;
+}
+
+h1.title {
+  text-align:right;
+  font-size:240%;
+  margin-top:1em;
+  margin-bottom:2em;
+  padding-left:0;
+  padding-right:0;
+  color: #876db2;
+}
+
+h2 {
+  font-size:140%;
+  margin-top:1.5em;
+  margin-bottom:0.5em;
+  padding-top:1em;
+  padding-bottom:0.5em;
+  padding-left:0;
+  padding-right:0;
+  text-align:left;
+  color: #876db2;
+}
+
+h3 {
+  font-size:105%;
+  padding:0;
+  margin:0px;
+  text-align:center;
+  color:#000;
+}
+
+h4,h5,h6 {
+  font-size:100%;
+  padding:0;
+  margin:0px;
+  text-align:right;
+  color:#000;
+}
+
+img, a img {
+  text-decoration:none;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration:none;
+  font-weight:bold;
+  cursor:pointer;
+  /* color:#5dc5a4; */
+  color: #81A1C1;
+}
+
+/* Table of Contents */
+#table-of-contents {
+  float: left;
+}
+
+#table-of-contents h2 {
+  display:none;
+}
+
+#text-table-of-contents {
+  width : auto;
+  padding: 0em;
+  font-size: 85%;
+}
+
+#text-table-of-contents li a {
+  display: block;
+  width: 100%;
+  text-align:left;
+  color: #876db2;
+}
+
+p {
+  text-align:justify;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 2em;
+}
+
+ul {
+  padding-left:0px;
+  margin-left:2em;
+}
+
+li {
+  margin-right:5ex;
+  text-align:justify;
+}
+
+li pre, li code.pre
+{
+  /* width:90%; */
+  margin-left:0em;
+  margin-top:1em;
+  margin-bottom:1em;
+  padding:0.3em;
+  display:block;
+  border:1px solid #cccccc;
+}
+
+p pre {
+  margin:0px;
+  padding:0px;
+}
+
+pre {
+  line-height:1.0em;
+  overflow:auto;
+  padding:5px 20px 5px 20px;
+  border:1px solid #cccccc;
+  margin-left:20px;
+  margin-right:20px
+}
+
+code {
+  font:1.0em "Courier New", Courier, Monaco, monospace
+}
+
+dt {
+  margin-top: 5px;
+  font-weight:bold;
+}
+
+dd {
+  margin-left:3em;
+}
+
+.todo {
+  /* from org-mode */
+  color: red;
+}
+
+.done {
+  /* from org-mode */
+  color: green;
+}
+
+.timestamp {
+  /* from org-mode */
+  color: blue;
+}
