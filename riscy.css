@@ -68,8 +68,7 @@ a {
   text-decoration:none;
   font-weight:bold;
   cursor:pointer;
-  /* color:#5dc5a4; */
-  color: #81A1C1;
+  color: #5e87d0;
 }
 
 /* Table of Contents */
@@ -91,6 +90,7 @@ a {
   display: block;
   width: 100%;
   text-align:left;
+
   color: #876db2;
 }
 
