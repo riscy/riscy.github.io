@@ -24,7 +24,7 @@ where I applied optimization to heuristic search.  Today I do deep learning at
 [[https://ibm.com][IBM]]'s Global Chief Data Office.  Before IBM, I was a data scientist at [[https://dissolve.com][Dissolve]]
 working on the search engine.
 
-This page is a portfolio of sorts -- find more on [[https://github.com/riscy][GitHub]] and [[https://linkedin.com/in/riscy/][LinkedIn]].
+This is a recent portfolio -- find more on [[https://github.com/riscy][GitHub]] and [[https://linkedin.com/in/riscy/][LinkedIn]].
 -----
 * Search Engine
   I was [[http://www.dissolve.com][Dissolve]]'s data scientist from April 2015 to September 2017.  My focus
@@ -72,12 +72,10 @@ This page is a portfolio of sorts -- find more on [[https://github.com/riscy][Gi
   computing subfields (numerical optimization, manifold learning,
   multidimensional scaling), provided a framework for analyzing past approaches,
   and boosted search performance in several domains.
-  - Optimization for Heuristic Search ::
-    Chris Rayner.
-    Ph.D. Thesis, University of Alberta, Edmonton, AB, Canada, 2014
-    ([[file:pdf/phd_thesis.pdf][doc]],
+  - [[file:pdf/phd_thesis.pdf][Optimization for Heuristic Search]] :: Chris Rayner.  Ph.D. Thesis, University
+       of Alberta, Edmonton, AB, Canada, 2014.
     #+begin_html
-    <a href="javascript:reveal('bibtex_ohs');">bibtex</a>)
+    <a href="javascript:reveal('bibtex_ohs');">bib</a>
     <div id="bibtex_ohs" style="display:none;">
     #+end_html
     #+begin_src bibtex
@@ -91,11 +89,11 @@ This page is a portfolio of sorts -- find more on [[https://github.com/riscy][Gi
     #+begin_html
     </div>
     #+end_html
-  - Subset Selection of Search Heuristics ::  Chris Rayner, Nathan Sturtevant,
+  - [[./pdf/RaynerEtAl-13.pdf][Subset Selection of Search Heuristics]] :: Chris Rayner, Nathan Sturtevant,
        Michael Bowling.  Proceedings of the International Joint Conference on
-       Artificial Intelligence (IJCAI), 2013  ([[./pdf/RaynerEtAl-13.pdf][doc]], [[./pdf/RaynerEtAl-13_poster.pdf][poster]],
+       Artificial Intelligence (IJCAI), 2013.  [[./pdf/RaynerEtAl-13_poster.pdf][poster]],
     #+begin_html
-    <a href="javascript:reveal('bibtex_hsubset');">bibtex</a>)
+    <a href="javascript:reveal('bibtex_hsubset');">bib</a>
     <div id="bibtex_hsubset" style="display:none;">
     #+end_html
     #+begin_src bibtex
@@ -114,11 +112,11 @@ This page is a portfolio of sorts -- find more on [[https://github.com/riscy][Gi
     #+begin_html
     </div>
     #+end_html
-  - Euclidean Heuristic Optimization ::  Chris Rayner, Michael Bowling, Nathan
+  - [[./pdf/RaynerEtAl-11.pdf][Euclidean Heuristic Optimization]] :: Chris Rayner, Michael Bowling, Nathan
        Sturtevant.  Proceedings of the Twenty-Fifth National Conference on
-       Artificial Intelligence (AAAI), 2011  ([[./pdf/RaynerEtAl-11.pdf][doc]], [[./pdf/RaynerEtAl-11_slides.pdf][slides]], [[./pdf/RaynerEtAl-11_poster.pdf][poster]],
+       Artificial Intelligence (AAAI), 2011.  [[./pdf/RaynerEtAl-11_slides.pdf][slides]], [[./pdf/RaynerEtAl-11_poster.pdf][poster]],
     #+begin_html
-    <a href="javascript:reveal('bibtex_eho');">bibtex</a>)
+    <a href="javascript:reveal('bibtex_eho');">bib</a>
     #+end_html
     #+begin_html
     <div id="bibtex_eho" style="display:none;">
@@ -162,11 +160,10 @@ This page is a portfolio of sorts -- find more on [[https://github.com/riscy][Gi
   to find trends.  It also helped me build regressors for predicting player
   movement and classifiers to distinguish human and machine play.
 
-  - Analysing Openings in Tactical Simulations :: Chris Rayner. M.Sc. Thesis,
-       University of Alberta, Edmonton, AB, Canada, 2008
-    ([[./pdf/msc_thesis.pdf][doc]],
+  - [[./pdf/msc_thesis.pdf][Analysing Openings in Tactical Simulations]] :: Chris Rayner. M.Sc. Thesis,
+       University of Alberta, Edmonton, AB, Canada, 2008.
     #+begin_html
-    <a href="javascript:reveal('bibtex_css');">bibtex</a>)
+    <a href="javascript:reveal('bibtex_css');">bib</a>
     <div id="bibtex_css" style="display:none;">
     #+end_html
     #+begin_src bibtex
@@ -180,23 +177,23 @@ This page is a portfolio of sorts -- find more on [[https://github.com/riscy][Gi
     #+begin_html
     </div>
     #+end_html
-  (This research was also featured in the Dec 2008 /IEEE Spectrum Magazine/
-  article [[http://spectrum.ieee.org/computing/software/bots-get-smart][Bots Get Smart]].)
+  This research was also featured in the Dec 2008 /IEEE Spectrum Magazine/
+  article [[http://spectrum.ieee.org/computing/software/bots-get-smart][Bots Get Smart]].
 * Emacs Packages
   I maintain a couple of Emacs packages on [[https://melpa.org][MELPA]] that improve Emacs's REPLs
   (especially ~shell-mode~ but also ~inferior-python-mode~ and really anything
   built on top of ~comint-mode~):
-** shx mode
-   [[https://github.com/riscy/shx-for-emacs][shx-mode]] ("shell-extras") supports a simple markup language for embedding
-   graphics and plots within a session (similar to a Jupyter notebook), adds
-   event-driven and timed behaviors, and makes it easy for users to write their
-   own shell commands in Emacs Lisp.  It also adds a host of interface
-   improvements including improved syntax highlighting.
-** bifocal mode
-  When you turn on [[https://github.com/riscy/bifocal-mode][bifocal-mode]], paging up causes a comint-mode window to be
-  split in two.  The large window on top (the head) displays past output, while
-  the small window on the bottom (the tail) allows the user to continue to
-  interact with the current input and output.
+   - [[https://github.com/riscy/shx-for-emacs][shx-mode]] :: This minor mode is a set of "shell extras" that supports a
+                 simple markup language for embedding graphics and plots within
+                 a session (similar to a Jupyter notebook), adds event-driven
+                 and timed behaviors, and makes it easy for users to write their
+                 own shell commands in Emacs Lisp.  It also adds a host of
+                 interface improvements such as improved syntax highlighting.
+   - [[https://github.com/riscy/bifocal-mode][bifocal-mode]] :: This minor mode modifies "page up" to split the current
+                     window while you're scrolling the buffer.  A large window
+                     on top (the head) displays past output, while a smaller
+                     window on the bottom (the tail) allows you to continue to
+                     interact with the current input and output.
 * Other Projects
   Here are a few implementations and write-ups on some interesting algorithms:
   - [[https://github.com/riscy/machine_learning_linear_models][Machine Learning with Linear Models]] :: This is a small demo showcasing a few
@@ -221,12 +218,11 @@ This page is a portfolio of sorts -- find more on [[https://github.com/riscy][Gi
   other projects spanning computer poker, subjective robotics, and real-time
   heuristic search.  Some resulted in publication:
 
-  - On Case Base Formation in Real-Time Heuristic Search :: Vadim Bulitko,
-       Chris Rayner, Ramon Lawrence. Proceedings of the Artificial
-       Intelligence and Interactive Digital Entertainment Conference
-       (AIIDE), 2012  ([[./pdf/BulitkoEtAl-12.pdf][doc]],
+  - [[./pdf/BulitkoEtAl-12.pdf][On Case Base Formation in Real-Time Heuristic Search]] :: Vadim Bulitko, Chris
+       Rayner, Ramon Lawrence. Proceedings of the Artificial Intelligence and
+       Interactive Digital Entertainment Conference (AIIDE), 2012.
     #+begin_html
-    <a href="javascript:reveal('bibtex_casebase');">bibtex</a>)
+    <a href="javascript:reveal('bibtex_casebase');">bib</a>
     <div id="bibtex_casebase" style="display:none;">
     #+end_html
     #+begin_src bibtex
@@ -243,12 +239,12 @@ This page is a portfolio of sorts -- find more on [[https://github.com/riscy][Gi
     #+begin_html
     </div>
     #+end_html
-  - The Critterbot: a Subjective Robotic Project :: Marc Bellemare, Michael
+  - [[./pdf/BellemareEtAl-09.pdf][The Critterbot: a Subjective Robotic Project]] :: Marc Bellemare, Michael
        Bowling, Thomas Degris, Anna Koop, Chris Rayner, Michael Sokolsky,
-       Richard Sutton, Adam White, Eric Wiewiora.  /Multidisciplinary
-       Symposium on Reinforcement Learning (MSRL)/, 2009  ([[./pdf/BellemareEtAl-09.pdf][doc]],
+       Richard Sutton, Adam White, Eric Wiewiora.  /Multidisciplinary Symposium
+       on Reinforcement Learning (MSRL)/, 2009.
     #+begin_html
-    <a href="javascript:reveal('bibtex_cbot');">bibtex</a>)
+    <a href="javascript:reveal('bibtex_cbot');">bib</a>
     <div id="bibtex_cbot" style="display:none;">
     #+end_html
     #+begin_src bibtex
@@ -265,12 +261,12 @@ This page is a portfolio of sorts -- find more on [[https://github.com/riscy][Gi
     #+begin_html
     </div>
     #+end_html
-  - Real-Time Heuristic Search with a Priority Queue :: Chris Rayner,
-       Katherine Davison, Vadim Bulitko, Kenneth Anderson, Jieshan Lu. In
-       Proceedings of the International Joint Conference on Artificial
-       Intelligence (IJCAI), 2007  ([[./pdf/RaynerEtAl-07.pdf][doc]],
+  - [[./pdf/RaynerEtAl-07.pdf][Real-Time Heuristic Search with a Priority Queue]] :: Chris Rayner, Katherine
+       Davison, Vadim Bulitko, Kenneth Anderson, Jieshan Lu. In Proceedings of
+       the International Joint Conference on Artificial Intelligence
+       (IJCAI), 2007.
     #+begin_html
-    <a href="javascript:reveal('bibtex_plrtaIJCAI');">bibtex</a>)
+    <a href="javascript:reveal('bibtex_plrtaIJCAI');">bib</a>
     <div id="bibtex_plrtaIJCAI" style="display:none;">
     #+end_html
     #+begin_src bibtex
@@ -288,12 +284,12 @@ This page is a portfolio of sorts -- find more on [[https://github.com/riscy][Gi
     #+begin_html
     </div>
     #+end_html
-  - Bayes' Bluff: Opponent Modelling in Poker :: Finnegan Southey, Michael
+  - [[./pdf/SoutheyEtAl-05.pdf][Bayes' Bluff: Opponent Modelling in Poker]] :: Finnegan Southey, Michael
        Bowling, Bryce Larson, Carmelo Piccione, Neil Burch, Darse Billings,
        Chris Rayner. Proceedings of the Twenty-First Conference on Uncertainty
-       in Artificial Intelligence (UAI), 2005 ([[./pdf/SoutheyEtAl-05.pdf][doc]],
+       in Artificial Intelligence (UAI), 2005.
     #+begin_html
-    <a href="javascript:reveal('bibtex_poker');">bibtex</a>)
+    <a href="javascript:reveal('bibtex_poker');">bib</a>
     <div id="bibtex_poker" style="display:none;">
     #+end_html
     #+begin_src bibtex
