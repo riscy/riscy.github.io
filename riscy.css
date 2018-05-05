@@ -27,7 +27,7 @@ h1.title {
   margin-bottom:2em;
   padding-left:0;
   padding-right:0;
-  color: #876db2;
+  color: #5d4d9a;
 }
 
 h2 {
@@ -39,7 +39,7 @@ h2 {
   padding-left:0;
   padding-right:0;
   text-align:left;
-  color: #876db2;
+  color: #5d4d9a;
 }
 
 h3 {
@@ -47,7 +47,7 @@ h3 {
   padding:0;
   margin:0px;
   text-align:center;
-  color:#000;
+  color:#444;
 }
 
 h4,h5,h6 {
@@ -55,7 +55,7 @@ h4,h5,h6 {
   padding:0;
   margin:0px;
   text-align:right;
-  color:#000;
+  color:#444;
 }
 
 img, a img {
@@ -69,7 +69,7 @@ a {
   text-decoration:none;
   font-weight:normal;
   cursor:pointer;
-  color: #5e87d0;
+  color: #3e67e0;
 }
 
 a:hover {
@@ -96,7 +96,7 @@ a:hover {
   width: 100%;
   text-align:left;
   font-weight:bold;
-  color: #876db2;
+  color: #5d4d9a;
 }
 
 p {
@@ -114,6 +114,7 @@ hr {
 ul {
   padding-left:0px;
   margin-left:1.5em;
+  list-style-type: square;
 }
 
 li {
