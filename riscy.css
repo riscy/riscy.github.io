@@ -4,42 +4,34 @@ body {
   margin:0;
   font:78% "Lucida Grande", sans-serif;
   line-height:1.5em;
-  background:#f3f3f3;
-  color:#222;
+  background:#fffff8;
+  color:#555;
 }
 
 #content {
   max-width:50em;
-  background:#ffffff;
   padding:20px 20px 20px 20px;
   margin:0 auto;
   border-bottom: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Verdana", sans-serif;
+  font: 78% "Lucida Grande", sans-serif;
+  color: #3e67c0;
 }
 
 h1.title {
-  text-align:right;
-  font-size:240%;
-  margin-top:1em;
-  margin-bottom:2em;
-  padding-left:0;
-  padding-right:0;
-  color: #5d4d9a;
+  text-align:center;
+  font-size:270%;
+  margin-top:0.25em;
+  margin-bottom:1em;
 }
 
 h2 {
-  font-size:140%;
-  margin-top:1.5em;
-  margin-bottom:0.5em;
-  padding-top:1em;
+  font-size:160%;
+  padding-top:0.5em;
   padding-bottom:0.5em;
-  padding-left:0;
-  padding-right:0;
-  text-align:left;
-  color: #5d4d9a;
+  text-align:center;
 }
 
 h3 {
@@ -47,7 +39,6 @@ h3 {
   padding:0;
   margin:0px;
   text-align:center;
-  color:#444;
 }
 
 h4,h5,h6 {
@@ -55,7 +46,6 @@ h4,h5,h6 {
   padding:0;
   margin:0px;
   text-align:right;
-  color:#444;
 }
 
 img, a img {
@@ -69,7 +59,8 @@ a {
   text-decoration:none;
   font-weight:normal;
   cursor:pointer;
-  color: #3e67e0;
+  color: #3e97c0;
+  color: #3e67c0;
 }
 
 a:hover {
@@ -88,15 +79,18 @@ a:hover {
 #text-table-of-contents {
   width : auto;
   padding: 0em;
-  font-size: 85%;
+  font-size: 94%;
+}
+
+#text-table-of-contents ul {
+  list-style: none;
 }
 
 #text-table-of-contents li a {
   display: block;
   width: 100%;
-  text-align:left;
-  font-weight:bold;
-  color: #5d4d9a;
+  text-align: right;
+  color: #3e67c0;
 }
 
 p {
@@ -109,12 +103,12 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   margin-top: 2em;
+  margin-bottom: 0.5em;
 }
 
 ul {
   padding-left:0px;
   margin-left:1.5em;
-  list-style-type: square;
 }
 
 li {
@@ -124,11 +118,9 @@ li {
 
 li pre, li code.pre
 {
-  /* width:90%; */
   margin-left:0em;
   margin-top:1em;
   margin-bottom:1em;
-  padding:0.3em;
   display:block;
   border:1px solid #cccccc;
 }
@@ -145,6 +137,12 @@ pre {
   border:1px solid #cccccc;
   margin-left:20px;
   margin-right:20px;
+  padding-top: 0;
+}
+
+pre.src {
+  padding:5px;
+  margin-bottom: 3.0em;
 }
 
 code {
@@ -162,19 +160,4 @@ dl dt a {
 
 dd {
   margin-left:3em;
-}
-
-.todo {
-  /* from org-mode */
-  color: red;
-}
-
-.done {
-  /* from org-mode */
-  color: green;
-}
-
-.timestamp {
-  /* from org-mode */
-  color: blue;
 }
