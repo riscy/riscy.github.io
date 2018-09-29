@@ -4,27 +4,28 @@ body {
   margin:0;
   font:78% "Lucida Grande", sans-serif;
   line-height:1.5em;
-  background:#fffff8;
-  color:#555;
+  background:#fffff4;
+  color: #555550;
 }
 
 #content {
   max-width:50em;
   padding:20px 20px 20px 20px;
   margin:0 auto;
-  border-bottom: 0px;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
   font: 78% "Lucida Grande", sans-serif;
-  color: #3e67c0;
+  color: #ff4500;
 }
 
 h1.title {
   text-align:center;
-  font-size:270%;
+  font-size:370%;
   margin-top:0.25em;
   margin-bottom:1em;
+  color: #ff4500;
 }
 
 h2 {
@@ -59,8 +60,7 @@ a {
   text-decoration:none;
   font-weight:normal;
   cursor:pointer;
-  color: #3e97c0;
-  color: #3e67c0;
+  color: #ff4500;
 }
 
 a:hover {
@@ -90,7 +90,7 @@ a:hover {
   display: block;
   width: 100%;
   text-align: right;
-  color: #3e67c0;
+  color: #ff4500;
 }
 
 p {
@@ -101,7 +101,7 @@ hr {
   height: 0;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid #ff4500;
   margin-top: 2em;
   margin-bottom: 0.5em;
 }
