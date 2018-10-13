@@ -100,8 +100,8 @@ p {
 hr {
   height: 0;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #ff4500;
+  border-top: 1px solid #ff4500;
+  border-bottom: 2px solid #ff4500;
   margin-top: 2em;
   margin-bottom: 0.5em;
 }
