@@ -22,7 +22,7 @@ I completed my PhD in computing science at the [[https://cs.ualberta.ca][Univers
 where I machine-learned pathfinding heuristics.
 
 Today I do deep learning at [[https://ibm.com][IBM]]'s Global Chief Data Office.  Before IBM, I
-worked as a data scientist on the search engine at [[https://dissolve.com][Dissolve]].
+worked as a data scientist on [[https://dissolve.com][Dissolve]]'s search engine.
 
 This is a recent portfolio (q.v. [[https://github.com/riscy][GitHub]]/[[https://linkedin.com/in/riscy/][LinkedIn]]/[[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]]).
 -----
@@ -145,7 +145,7 @@ This is a recent portfolio (q.v. [[https://github.com/riscy][GitHub]]/[[https://
   precludes identifying openings by way of a table lookup.  But it is still
   reasonable to assume that, with enough recorded gameplay data, you can model
   trends.  I started to do so by creating a visualization of the "next-state
-  entropy" of expert players moving through a popular Counter-Strike map.  An
+  entropy" of expert players moving through [[https://www.johnsto.co.uk/design/making-dust2/][a popular Counter-Strike map]].  An
   initial choice is made (hot colors, bottom), invariably followed by fixed
   actions (cold colors), followed by another choice...
 
