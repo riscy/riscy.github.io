@@ -2,22 +2,23 @@
 
 body {
   margin:0;
-  font:78% "Lucida Grande", sans-serif;
+  font:82% "Lucida Grande", sans-serif;
   line-height:1.5em;
-  background: #fffffa;
-  color: #555550;
+  background: #242730;
+  color: #505050;
 }
 
 #content {
   max-width:50em;
   padding:20px 20px 20px 20px;
   margin:0 auto;
-  background:#fffffa;
+  background: #eaf1f7;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font: 78% "Lucida Grande", sans-serif;
-  color: #30a0c0;
+  font: 78% "Menlo", monospace;
+  font-style: bold;
+  color: #7cb275;
 }
 
 h1.title {
@@ -25,6 +26,7 @@ h1.title {
   font-size:370%;
   margin-top:0.20em;
   margin-bottom:0.60em;
+  color: #30a0c0;
 }
 
 h2 {
@@ -99,8 +101,8 @@ p {
 hr {
   height: 0;
   border: 0;
-  border-top: 2px solid #30a0c0;
-  border-bottom: 1px solid #30a0c0;
+  border-top: 1px solid #30a0c0;
+  border-bottom: 1px solid #3090b0;
   margin-top: 2em;
   margin-bottom: 0.5em;
 }

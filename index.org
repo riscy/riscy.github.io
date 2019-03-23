@@ -30,10 +30,10 @@ This is a recent portfolio (q.v. [[https://github.com/riscy][GitHub]]/[[https://
   :PROPERTIES:
   :CUSTOM_ID: search_engine
   :END:
-  I was [[http://www.dissolve.com][Dissolve]]'s data scientist from April 2015 to September 2017.  My focus
-  was on enhancing the search engine and the metadata behind it; I also did web
-  dev and kept the data warehouse healthy.  My largest contributions centered on
-  automation and process improvement.  Key projects include:
+  I was [[http://www.dissolve.com][Dissolve]]'s data scientist from April 2015 to September 2017.  My main
+  focus was enhancing the search engine and the metadata behind it; I also did
+  web dev and kept the data warehouse healthy.  My largest contributions
+  centered on automation and process improvement.  Key projects include:
   - Recovering same-shoot data :: I designed a machine learning workflow with a
        human in the loop that recovered lost /same shoot/ data for hundreds of
        thousands of Dissolve's products.  This feature received accolades from
@@ -88,6 +88,7 @@ This is a recent portfolio (q.v. [[https://github.com/riscy][GitHub]]/[[https://
       title        = {{Optimization for Heuristic Search}},
       school       = {University of Alberta},
       year         = 2014
+      month        = 12
     }
     #+end_src
     #+begin_export html
@@ -168,6 +169,8 @@ This is a recent portfolio (q.v. [[https://github.com/riscy][GitHub]]/[[https://
       title        = {{Analysing Openings in Tactical Simulations}},
       school       = {University of Alberta},
       year         = 2008
+      month        = 6
+      day          = 11
     }
     #+end_src
     @@html:</div>@@
@@ -179,8 +182,8 @@ This is a recent portfolio (q.v. [[https://github.com/riscy][GitHub]]/[[https://
   :CUSTOM_ID: emacs_packages
   :END:
   I maintain a couple of Emacs packages on [[https://melpa.org][MELPA]] that improve Emacs's REPLs
-  (especially ~shell-mode~ but also ~inferior-python-mode~ and really anything
-  built on top of ~comint-mode~):
+  (especially =shell-mode= but also =inferior-python-mode= and really anything
+  built on top of =comint-mode=):
   - [[https://github.com/riscy/shx-for-emacs][shx-mode]] :: A set of "shell extras" that supports a simple markup language
        for embedding graphics and plots within a session (similar to a Jupyter
        notebook), adds event-driven and timed behaviors, and makes it easy for
