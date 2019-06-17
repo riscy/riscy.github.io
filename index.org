@@ -2,7 +2,7 @@
 
 #+TITLE: Chris Rayner
 #+AUTHOR: Chris Rayner
-#+OPTIONS: email:nil toc:1 author:t creator:t num:nil date:t html-postamble:nil
+#+OPTIONS: email:nil toc:nil author:t creator:t num:nil date:t html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="riscy.css"/>
 
 #+begin_export html
@@ -19,10 +19,9 @@
 </script>
 #+end_export
 I completed my PhD in computing science at the [[https://cs.ualberta.ca][University of Alberta]] in 2014,
-where I machine-learned pathfinding heuristics.
-
-Today I do deep learning at [[https://ibm.com][IBM]]'s Global Chief Data Office.  Before IBM, I
-worked as a data scientist on [[https://dissolve.com][Dissolve]]'s search engine.
+where I machine-learned pathfinding heuristics.  Today I work in applied machine
+learning -- especially in deep networks -- at [[https://ibm.com][IBM]]'s Global Chief Data Office.
+Before IBM, I worked as a data scientist on [[https://dissolve.com][Dissolve]]'s search engine.
 
 This is a recent portfolio (q.v. [[https://github.com/riscy][GitHub]]/[[https://linkedin.com/in/riscy/][LinkedIn]]/[[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]]).
 -----
