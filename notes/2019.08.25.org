@@ -1,0 +1,4 @@
+"No clear map or schedule for continuing to learn ... while you tackle more
+immediate challenges; not creating many small katas, exercises, and projects
+while learning; not seeking one-on-one mentorship" ([[https://programmingzen.com/pitfalls-when-learning-to-program/][28 Pitfalls When Learning to
+Program]]).

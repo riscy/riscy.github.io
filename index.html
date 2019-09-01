@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-06-16 Sun 19:05 -->
+<!-- 2019-09-01 Sun 16:10 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Chris Rayner</title>
+<title>D. Chris Rayner</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Chris Rayner" />
 <style type="text/css">
@@ -230,392 +230,55 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Chris Rayner</h1>
-<script type="text/javascript">
-<!--
-    function reveal(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
-//-->
-</script>
-<p>
-I completed my PhD in computing science at the <a href="https://cs.ualberta.ca">University of Alberta</a> in 2014,
-where I machine-learned pathfinding heuristics.  Today I work in applied machine
-learning &#x2013; especially in deep networks &#x2013; at <a href="https://ibm.com">IBM</a>'s Global Chief Data Office.
-Before IBM, I worked as a data scientist on <a href="https://dissolve.com">Dissolve</a>'s search engine.
-</p>
-
-<p>
-This is a recent portfolio (q.v. <a href="https://github.com/riscy">GitHub</a>/<a href="https://linkedin.com/in/riscy/">LinkedIn</a>/<a href="https://scholar.google.com/citations?user=zkQRfk4AAAAJ">Google Scholar</a>).
-</p>
+<h1 class="title">D. Chris Rayner</h1>
 <hr />
-<div id="outline-container-orgb564733" class="outline-2">
-<h2 id="search_engine"><a id="orgb564733"></a>Data Science for a Search Engine</h2>
-<div class="outline-text-2" id="text-search_engine">
 <p>
-I was <a href="http://www.dissolve.com">Dissolve</a>'s data scientist from April 2015 to September 2017.  My main
-focus was enhancing the search engine and the metadata behind it; I also did
-web dev and kept the data warehouse healthy.  My largest contributions
-centered on automation and process improvement.  Key projects include:
+Hi! I completed my PhD in computing science in 2014 at the <a href="https://cs.ualberta.ca">University of Alberta</a>,
+where I machine-learned pathfinding heuristics.  Since then, I've worked as a
+data scientist on <a href="https://dissolve.com">Dissolve</a>'s search engine, and then in applied machine learning
+at <a href="https://ibm.com">IBM</a>'s Global Chief Data Office&#x2026; (<a href="./portfolio.html">see portfolio</a>)
 </p>
+
+<hr />
+
+<div id="outline-container-org7458c41" class="outline-2">
+<h2 id="org7458c41">Notes</h2>
+<div class="outline-text-2" id="text-org7458c41">
+<p>
+2019.08.31. "&#x2026;work with percentiles rather than the mean (arithmetic average) of a set of
+values.  Doing so makes it possible to consider the long tail of data points,
+which often have significantly different (and more interesting) characteristics
+than the average." (<a href="http://shop.oreilly.com/product/0636920041528.do">Site Reliability Engineering</a>)
+</p>
+
+<p>
+2019.08.25. "No clear map or schedule for continuing to learn &#x2026; while you tackle more
+immediate challenges; not creating many small katas, exercises, and projects
+while learning; not seeking one-on-one mentorship" (<a href="https://programmingzen.com/pitfalls-when-learning-to-program/">28 Pitfalls When Learning to
+Program</a>).
+</p>
+
+<p>
+2019.08.24. Experimenting with notes ("a collection without order").
+</p>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-org42a044e" class="outline-2">
+<h2 id="org42a044e">Bookmarks</h2>
+<div class="outline-text-2" id="text-org42a044e">
 <dl class="org-dl">
-<dt>Recovering same-shoot data</dt><dd>I designed a machine learning workflow with a
-human in the loop that recovered lost <i>same shoot</i> data for hundreds of
-thousands of Dissolve's products.  This feature received accolades from
-customers and contributors alike and is now a significant selling point
-for the site.</dd>
-<dt>Keyword quality enhancement</dt><dd>I built a tool to cluster keywords on the
-order of tens of millions across spelling, typographic, and corrupted
-unicode variants.  This enabled outlier detection, data exploration, and
-keyword normalization at an even greater scale than Google's OpenRefine.</dd>
-<dt>Domain-specific search vocabulary</dt><dd>I played a key role in building
-Dissolve's industry-leading vocabulary which relates synonyms, hypernyms,
-and ambiguous terms in a graph.  This improved precision and recall,
-massively augmented Elasticsearch's <i>suggest</i> endpoint, and enforced
-important consistency checks.</dd>
-<dt>Spam detection</dt><dd>Spam is everywhere.  Dissolve is no different, as
-contributors can be tempted to misapply keywords to get
-their products to appear in more searches.  I led the
-effort to create a dataset, and subsequently built a model
-wrapped in a microservice to help detect this spam.</dd>
-</dl>
-</div>
-</div>
-<div id="outline-container-orgb814af6" class="outline-2">
-<h2 id="optimization_heuristic_search"><a id="orgb814af6"></a>Optimization for Heuristic Search</h2>
-<div class="outline-text-2" id="text-optimization_heuristic_search">
-<p>
-Heuristic search is the backbone of applications like GPS road navigation and
-video game pathfinding.  Here, the "heuristic" is a scalar function that maps
-pairs of states to an estimate of the true distance between them.  A good
-heuristic helps the algorithm to rank candidate paths, which decreases cycle
-times and can lead to higher-quality solutions.
-</p>
-
-<p>
-I posed the task of building better heuristics as a machine learning problem:
-minimizing loss between the true distances and the heuristic estimates.  I
-derived several instances where such an optimization is feasible and tractable
-(or at least approximable).  The solutions are <i>state embeddings</i> with
-intuitive visuals that can be likened to unfolding the search space (pictured,
-courtesy Nathan Sturtevant).
-</p>
-
-
-<div class="figure">
-<p><img src="img/heuristic_optimization.png" alt="heuristic_optimization.png" width="50%" />
-</p>
-</div>
-
-<p>
-This work also revealed unobserved links between heuristic search and other
-computing subfields (numerical optimization, manifold learning,
-multidimensional scaling), provided a framework for analyzing past approaches,
-and boosted search performance in several domains.
-</p>
-<ul class="org-ul">
-<li><p>
-<a href="pdf/phd_thesis.pdf">Optimization for Heuristic Search</a>
-(<a href="javascript:reveal('bibtex_ohs');">bib</a>) <br />
-<b>Chris Rayner</b>.  Ph.D. Thesis, University of Alberta, Edmonton, AB, Canada, 2014.
-<div id="bibtex_ohs" style="display:none;">
-</p>
-<div class="org-src-container">
-<pre class="src src-bibtex"><span style="color: #5cEfFF;">@PhdThesis</span>{<span style="color: #a991f1;">Rayner-14</span>,
-  <span style="color: #DFDFDF;">author</span>       = {Chris Rayner},
-  <span style="color: #DFDFDF;">title</span>        = {{Optimization for Heuristic Search}},
-  <span style="color: #DFDFDF;">school</span>       = {University of Alberta},
-  <span style="color: #DFDFDF;">year</span>         = 2014
-  <span style="color: #DFDFDF;">month</span>        = 12
-}
-</pre>
-</div>
-</div></li>
-<li><p>
-<a href="./pdf/RaynerEtAl-13.pdf">Subset Selection of Search Heuristics</a>
-(<a href="./pdf/RaynerEtAl-13_poster.pdf">poster</a>, <a href="javascript:reveal('bibtex_hsubset');">bib</a>) <br />
-<b>Chris Rayner</b>, Nathan Sturtevant, Michael Bowling.  Proceedings of the
-International Joint Conference on Artificial Intelligence (IJCAI), 2013.
-<div id="bibtex_hsubset" style="display:none;">
-</p>
-<div class="org-src-container">
-<pre class="src src-bibtex"><span style="color: #5cEfFF;">@inproceedings</span>{<span style="color: #a991f1;">RaynerEtAl-13</span>,
-  <span style="color: #DFDFDF;">author</span>       = {Chris Rayner and Nathan
-                  Sturtevant and Michael Bowling},
-  <span style="color: #DFDFDF;">title</span>        = {{Subset Selection of Search Heuristics}},
-  <span style="color: #DFDFDF;">booktitle</span>    = {Proceedings of the International Joint Conference on
-                  Artificial Intelligence (IJCAI)},
-  <span style="color: #DFDFDF;">acceptrate</span>   = {28.0\%},
-  <span style="color: #DFDFDF;">acceptnumbers</span>= {413 of 1473},
-  <span style="color: #DFDFDF;">year</span>         = 2013,
-  <span style="color: #DFDFDF;">address</span>      = {Beijing, China},
-}
-</pre>
-</div>
-<p>
-</div>
-</p></li>
-<li><p>
-<a href="./pdf/RaynerEtAl-11.pdf">Euclidean Heuristic Optimization</a>
-(<a href="./pdf/RaynerEtAl-11_slides.pdf">slides</a>, <a href="./pdf/RaynerEtAl-11_poster.pdf">poster</a>, <a href="javascript:reveal('bibtex_eho');">bib</a>)<br />
-<b>Chris Rayner</b>, Michael Bowling, Nathan Sturtevant.  Proceedings of the
-Twenty-Fifth National Conference on Artificial Intelligence
-(AAAI), 2011.
-<div id="bibtex_eho" style="display:none;">
-</p>
-<div class="org-src-container">
-<pre class="src src-bibtex"><span style="color: #5cEfFF;">@inproceedings</span>{<span style="color: #a991f1;">RaynerEtAl-11</span>,
-  <span style="color: #DFDFDF;">author</span>                  = {Chris Rayner and Michael Bowling and Nathan Sturtevant},
-  <span style="color: #DFDFDF;">title</span>                   = {{Euclidean Heuristic Optimization}},
-  <span style="color: #DFDFDF;">booktitle</span>               = {Proceedings of the Twenty-Fifth National Conference on
-                              Artificial Intelligence (AAAI)},
-  <span style="color: #DFDFDF;">acceptrateOral</span>          = {24.8\%},
-  <span style="color: #DFDFDF;">acceptrateOralAndPoster</span> = {4.4\%},
-  <span style="color: #DFDFDF;">acceptnumbers</span>           = {242 of 975},
-  <span style="color: #DFDFDF;">year</span>                    = 2011,
-  <span style="color: #DFDFDF;">pages</span>                   = {81--86},
-}
-</pre>
-</div>
-<p>
-</div>
-</p></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org8755407" class="outline-2">
-<h2 id="data_mining_counter_strike"><a id="org8755407"></a>Data Mining Counter-Strike</h2>
-<div class="outline-text-2" id="text-data_mining_counter_strike">
-<p>
-An "opening" is a fixed sequence of actions you choose to play out the start
-of a game with.  A familiar example of a game where openings are important is
-chess.  If you have a formal way to recognize an opening, it's easy to query a
-database of games for its success rate, popularity, etc.
-</p>
-
-<p>
-But what about a game like Counter-Strike?  Its fine-grained state space
-precludes identifying openings by way of a table lookup.  But it is still
-reasonable to assume that, with enough recorded gameplay data, you can model
-trends.  I started to do so by creating a visualization of the "next-state
-entropy" of expert players moving through <a href="https://www.johnsto.co.uk/design/making-dust2/">a popular Counter-Strike map</a>.  An
-initial choice is made (hot colors, bottom), invariably followed by fixed
-actions (cold colors), followed by another choice&#x2026;
-</p>
-
-
-<div class="figure">
-<p><img src="img/entropy_visualization.png" alt="entropy_visualization.png" width="50%" />
-</p>
-</div>
-
-<p>
-This high regularity meant that cluster analysis was effective in tightly
-grouping these openings.  These clusters formed the basis for the "opening
-book" I was after.  This ultimately gave me categorical data within which I
-was able to find trends.  It also helped me build regressors for predicting
-player movement and classifiers to distinguish human and machine play.
-</p>
-
-<ul class="org-ul">
-<li><p>
-<a href="./pdf/msc_thesis.pdf">Analysing Openings in Tactical Simulations</a>
-(<a href="javascript:reveal('bibtex_css');">bib</a>) <br />
-<b>Chris Rayner</b>. M.Sc. Thesis, University of Alberta, Edmonton, AB, Canada, 2008.
-<div id="bibtex_css" style="display:none;">
-</p>
-<div class="org-src-container">
-<pre class="src src-bibtex"><span style="color: #5cEfFF;">@MastersThesis</span>{<span style="color: #a991f1;">Rayner-08</span>,
-  <span style="color: #DFDFDF;">author</span>       = {Chris Rayner},
-  <span style="color: #DFDFDF;">title</span>        = {{Analysing Openings in Tactical Simulations}},
-  <span style="color: #DFDFDF;">school</span>       = {University of Alberta},
-  <span style="color: #DFDFDF;">year</span>         = 2008
-  <span style="color: #DFDFDF;">month</span>        = 6
-  <span style="color: #DFDFDF;">day</span>          = 11
-}
-</pre>
-</div>
-<p>
-</div>
-</p></li>
-<li>This work was featured among the original illustrations in IEEE Spectrum
-Magazine's December 2008 article, <a href="http://spectrum.ieee.org/computing/software/bots-get-smart">Bots Get Smart</a> (Jonathan Schaeffer, Vadim
-Bulitko, and Michael Buro).</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orgac24f36" class="outline-2">
-<h2 id="emacs_packages"><a id="orgac24f36"></a>Emacs Packages</h2>
-<div class="outline-text-2" id="text-emacs_packages">
-<p>
-I maintain a couple of Emacs packages on <a href="https://melpa.org">MELPA</a> that improve Emacs's REPLs
-(especially <code>shell-mode</code> but also <code>inferior-python-mode</code> and really anything
-built on top of <code>comint-mode</code>):
-</p>
-<dl class="org-dl">
-<dt><a href="https://github.com/riscy/shx-for-emacs">shx-mode</a></dt><dd>A set of "shell extras" that supports a simple markup language
-for embedding graphics and plots within a session (similar to a Jupyter
-notebook), adds event-driven and timed behaviors, and makes it easy for
-users to write their own shell commands in Emacs Lisp, and adds interface
-improvements such as improved syntax highlighting.  Available on <a href="https://stable.melpa.org/#/shx">MELPA</a>
-since May 2017.</dd>
-<dt><a href="https://github.com/riscy/bifocal-mode">bifocal-mode</a></dt><dd>A minor mode that splits the current window while you're
-scrolling the buffer.  A large window on top displays past output, while
-a smaller window on the bottom allows you to continue to interact with
-the current input and output.  Available on <a href="https://stable.melpa.org/#/bifocal">MELPA</a> since June 2017.</dd>
-</dl>
-</div>
-</div>
-<div id="outline-container-orgf119823" class="outline-2">
-<h2 id="other_projects"><a id="orgf119823"></a>Other Projects</h2>
-<div class="outline-text-2" id="text-other_projects">
-<p>
-Here are a few implementations and write-ups on some interesting algorithms:
-</p>
-<dl class="org-dl">
-<dt><a href="https://github.com/riscy/machine_learning_linear_models">Machine Learning with Linear Models</a></dt><dd>This is a small demo showcasing a few
-distinct "regressors" mapping vectors of observations <i>X</i> to vectors of
-outcomes <i>Y</i>. Varying assumptions about the data can lead to different
-levels of performance - sometimes drastically.</dd>
-<dt><a href="https://github.com/riscy/sammon_mapping_gsl">Sammon Mapping</a></dt><dd>Given a Euclidean distance matrix, there is a <i>closed
-form</i> to resolve the corresponding points.  This computation is a key
-step in many embedding algorithms. But when you're given a distance
-matrix that is non-Euclidean, you might have to do something else.  The
-Sammon Map was an early attempt at this.  This is a C implementation
-using BLAS (requires the GNU scientific library) that also supports
-nonlinear dimensionality reduction.</dd>
-<dt><a href="https://github.com/riscy/a_star_on_grids">Best Practices for A* on Grids</a></dt><dd>I learned a bit about writing a good
-pathfinder in grad school.  Here's a list of ways to improve your A*
-implementation, focusing on pathfinding on four- and eight-connected
-grids.  It's pitched at hobbyists and anyone looking for ways to make
-their existing code a bit faster, and has <a href="https://github.com/riscy/a_star_on_grids/tree/master/src">accompanying code in C++</a>.</dd>
+<dt><a href="https://developers.google.com/machine-learning/guides/rules-of-ml/">Rules of Machine Learning</a></dt><dd>43 best practices couched in standardized
+terminology, e.g. "The number of feature weights you can learn in a linear
+model is roughly proportional to the amount of data you have."</dd>
+<dt><a href="https://www.quora.com/What-are-the-best-secrets-of-great-programmers/answer/Jens-Rantil">Best Kept Secrets of Great Programmers</a></dt><dd>39 software development tips as a
+Quora answer, e.g. "Code paths that handle failures are rarely
+tested/executed (for a reason). This makes them a good candidate for bugs."</dd>
 </dl>
 
-<p>
-Beyond those listed above, I'm grateful to have been a part of a number of
-other projects spanning computer poker, optimizing compilers, subjective
-robotics, and real-time heuristic search:
-</p>
-<ul class="org-ul">
-<li><p>
-<a href="./pdf/BulitkoEtAl-12.pdf">On Case Base Formation in Real-Time Heuristic Search</a>
-(<a href="javascript:reveal('bibtex_casebase');">bib</a>) <br />
-Vadim Bulitko, <b>Chris Rayner</b>, Ramon Lawrence. Proceedings of the Artificial
-Intelligence and Interactive Digital Entertainment Conference (AIIDE), 2012.
-<div id="bibtex_casebase" style="display:none;">
-</p>
-<div class="org-src-container">
-<pre class="src src-bibtex"><span style="color: #5cEfFF;">@inproceedings</span>{<span style="color: #a991f1;">BulitkoEtAl-12</span>,
-  <span style="color: #DFDFDF;">author</span>       = {Vadim Bulitko and Chris Rayner and Ramon Lawrence},
-  <span style="color: #DFDFDF;">title</span>        = {{On Case Base Formation in Real-Time Heuristic
-                  Search}},
-  <span style="color: #DFDFDF;">booktitle</span>    = {Proceedings of the Artificial Intelligence and
-                  Interactive Digital Entertainment Conference (AIIDE)},
-  <span style="color: #DFDFDF;">acceptrate</span>   = {54.2\%},
-  <span style="color: #DFDFDF;">year</span>         = 2012,
-}
-</pre>
-</div>
-<p>
-</div>
-</p></li>
-<li><p>
-<a href="./pdf/Rayner-09.pdf">Evolving Feature Selectors to Inform Compiler Optimizations</a>
-(<a href="javascript:reveal('bibtex_compiler');">bib</a>) <br />
-<b>Chris Rayner</b>.  A final project report describing an emulation of
-Leather <i>et al</i>.'s 2009 work.  For the course <i>Machine Learning and
-Optimizing Compilers</i>. University of Alberta, 2009.
-<div id="bibtex_compiler" style="display:none;">
-</p>
-<div class="org-src-container">
-<pre class="src src-bibtex"><span style="color: #5cEfFF;">@report</span>{<span style="color: #a991f1;">Rayner-09</span>,
-  <span style="color: #DFDFDF;">author</span> = {Chris Rayner},
-  <span style="color: #DFDFDF;">title</span> = {{Evolving Feature Selectors to Inform Compiler Optimizations}},
-  <span style="color: #DFDFDF;">institution</span> = {University of Alberta},
-  <span style="color: #DFDFDF;">month</span> = dec,
-  <span style="color: #DFDFDF;">year</span> = 2009,
-}
-</pre>
-</div>
-<p>
-</div>
-</p></li>
-<li><p>
-<a href="./pdf/BellemareEtAl-09.pdf">The Critterbot: a Subjective Robotic Project</a>
-(<a href="javascript:reveal('bibtex_cbot');">bib</a>) <br />
-Marc Bellemare, Michael Bowling, Thomas Degris, Anna Koop, <b>Chris Rayner</b>,
-Michael Sokolsky, Richard Sutton, Adam White, Eric Wiewiora.
-Multidisciplinary Symposium on Reinforcement Learning (MSRL), 2009.
-<div id="bibtex_cbot" style="display:none;">
-</p>
-<div class="org-src-container">
-<pre class="src src-bibtex"><span style="color: #5cEfFF;">@inproceedings</span>{<span style="color: #a991f1;">BellemareEtAl-09</span>,
-  <span style="color: #DFDFDF;">author</span>       = {Marc Bellemare and Michael Bowling and Thomas Degris
-                  and Anna Koop and Chris Rayner and Michael Sokolsky
-                  and Richard Sutton and Adam White and Eric Wiewiora},
-  <span style="color: #DFDFDF;">title</span>        = {{The Critterbot: a Subjective Robotic Project}},
-  <span style="color: #DFDFDF;">booktitle</span>    = {Multidisciplinary Symposium on Reinforcement Learning
-                  (MSRL)},
-  <span style="color: #DFDFDF;">year</span>         = 2009,
-}
-</pre>
-</div>
-<p>
-</div>
-</p></li>
-<li><p>
-<a href="./pdf/RaynerEtAl-07.pdf">Real-Time Heuristic Search with a Priority Queue</a>
-(<a href="javascript:reveal('bibtex_plrtaIJCAI');">bib</a>) <br />
-<b>Chris Rayner</b>, Katherine Davison, Vadim Bulitko, Kenneth Anderson, Jieshan
-Lu.  Proceedings of the Twentieth International Joint Conference on Artificial
-Intelligence (IJCAI), 2007.
-<div id="bibtex_plrtaIJCAI" style="display:none;">
-</p>
-<div class="org-src-container">
-<pre class="src src-bibtex"><span style="color: #5cEfFF;">@inproceedings</span>{<span style="color: #a991f1;">RaynerEtAl-07</span>,
-  <span style="color: #DFDFDF;">author</span>       = {Chris Rayner and Katherine Davison and Vadim Bulitko and Kenneth
-                  Anderson and Jieshan Lu},
-  <span style="color: #DFDFDF;">title</span>        = {{Real-Time Heuristic Search with a Priority Queue}},
-  <span style="color: #DFDFDF;">acceptrate</span>   = {35\%},
-  <span style="color: #DFDFDF;">booktitle</span>    = {Proceedings of the Twentieth International Joint Conference on
-                  Artificial Intelligence (IJCAI)},
-  <span style="color: #DFDFDF;">year</span>         = 2007,
-  <span style="color: #DFDFDF;">pages</span>        = {2372--2377}
-}
-</pre>
-</div>
-<p>
-</div>
-</p></li>
-<li><p>
-<a href="./pdf/SoutheyEtAl-05.pdf">Bayes' Bluff: Opponent Modelling in Poker</a>
-(<a href="javascript:reveal('bibtex_poker');">bib</a>) <br />
-Finnegan Southey, Michael Bowling, Bryce Larson, Carmelo Piccione, Neil
-Burch, Darse Billings, <b>Chris Rayner</b>. Proceedings of the Twenty-First
-Conference on Uncertainty in Artificial Intelligence (UAI), 2005.
-<div id="bibtex_poker" style="display:none;">
-</p>
-<div class="org-src-container">
-<pre class="src src-bibtex"><span style="color: #5cEfFF;">@inproceedings</span>{<span style="color: #a991f1;">SoutheyEtAl-05</span>,
-  <span style="color: #DFDFDF;">author</span>       = {Finnegan Southey and Michael Bowling and Bryce Larson and
-                  Carmelo Piccione and Neil Burch and Darse Billings and Chris
-                  Rayner},
-  <span style="color: #DFDFDF;">title</span>        = {{Bayes' Bluff: Opponent Modelling in Poker}},
-  <span style="color: #DFDFDF;">booktitle</span>    = {Proceedings of the Twenty-First Conference on Uncertainty in
-                  Artificial Intelligence (UAI)},
-  <span style="color: #DFDFDF;">pages</span>        = {550--558},
-  <span style="color: #DFDFDF;">year</span>         = 2005,
-}
-</pre>
-</div>
-<p>
-</div>
-</p></li>
-</ul>
 <hr />
 </div>
 </div>

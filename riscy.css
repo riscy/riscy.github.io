@@ -2,43 +2,50 @@
 
 body {
   margin:0;
-  font:82% "Lucida Grande", sans-serif;
+  font:80% "Lucida Grande", sans-serif;
   line-height:1.5em;
-  background: #242730;
-  color: #505050;
+  background: #ffffff;
+  color: #303030;
 }
 
 #content {
   max-width:50em;
-  padding:20px 20px 20px 20px;
+  padding:30px 20px 20px 20px;
   margin:0 auto;
-  background: #eaf1f7;
+  background: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font: 78% "Menlo", monospace;
-  font-style: bold;
-  color: #7cb275;
+  color: #000000;
+  text-align:center;
 }
 
 h1.title {
-  text-align:center;
-  font-size:370%;
-  margin-top:0.20em;
-  margin-bottom:0.60em;
+  font-size:300%;
+  margin-top:0.3em;
+  margin-bottom:1em;
   color: #30a0c0;
+  color: #7cb275;
+  color: #3070f0;
+}
+
+hr {
+  height: 0;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #E0E0E0;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 h2 {
-  font-size:160%;
+  font-size:150%;
   padding-top:0.5em;
   padding-bottom:0.5em;
-  text-align:center;
 }
 
 h3 {
-  font-size:105%;
-  padding:0;
+  font-size:80%;
   margin:0px;
   text-align:center;
 }
@@ -47,14 +54,15 @@ h4,h5,h6 {
   font-size:100%;
   padding:0;
   margin:0px;
-  text-align:right;
+  text-align:left;
 }
 
 img, a img {
   text-decoration:none;
   margin-left:auto;
   margin-right: auto;
-  filter: drop-shadow(0 0 15px #888);
+  /* filter: drop-shadow(0 0 15px #888); */
+  border-radius: 3%;
 }
 
 a {
@@ -62,6 +70,7 @@ a {
   font-weight:normal;
   cursor:pointer;
   color: #30a0c0;
+  color: #3070f0;
 }
 
 a:hover {
@@ -96,15 +105,6 @@ a:hover {
 
 p {
   text-align:justify;
-}
-
-hr {
-  height: 0;
-  border: 0;
-  border-top: 1px solid #30a0c0;
-  border-bottom: 1px solid #3090b0;
-  margin-top: 2em;
-  margin-bottom: 0.5em;
 }
 
 ul {

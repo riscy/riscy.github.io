@@ -1,0 +1,4 @@
+"...work with percentiles rather than the mean (arithmetic average) of a set of
+values.  Doing so makes it possible to consider the long tail of data points,
+which often have significantly different (and more interesting) characteristics
+than the average." ([[http://shop.oreilly.com/product/0636920041528.do][Site Reliability Engineering]])
