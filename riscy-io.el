@@ -31,7 +31,7 @@ MORE-TEXT can be used to adjust the 'more' button, if any."
   (mapconcat
    (lambda (org-file)
      (when (string-match "^[^_]*\\.org$" org-file)
-       (concat (string-trim-right org-file ".org") ". "
+       (concat "*" (string-trim-right org-file ".org") "* "
                (riscy-io-get-note
                 (concat (file-name-as-directory directory) org-file)))))
    (reverse (directory-files directory))

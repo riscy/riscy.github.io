@@ -1,0 +1,5 @@
+"...create the object using a parameter-less constructor and then you set only
+fields which you want using mutators ... [but then] fields cannot be declared
+final".  Consider a Builder: "to make things more convenient, the builder
+returns itself, so you can chain the method calls (fluent interface)"
+([[https://www.vojtechruzicka.com/avoid-telescoping-constructor-pattern/][Telescoping Constructor Pattern alternatives]]).

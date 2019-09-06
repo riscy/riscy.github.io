@@ -1,5 +1,6 @@
 .PHONY: all
 all: index.html portfolio.html
+	open index.html
 
 EMACSBIN?=emacs
 
