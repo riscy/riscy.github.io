@@ -1,0 +1,5 @@
+"...choose your return type based on what you need to continue fluent action
+... the problems of methods in a fluent interface is that they don't make much
+sense on their own" ([[https://martinfowler.com/bliki/FluentInterface.html][Fluent Interfaces]]).  "Always return self"; "Remove any
+getter methods [instead] create a command which will apply the data to the thing
+([[https://www.saturnflyer.com/blog/the-4-rules-of-east-oriented-code-rule-1][East-Oriented Code]]).
