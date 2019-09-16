@@ -1,0 +1,5 @@
+"When dealing with the wrong abstraction, the fastest way forward is back ...
+re-introduce duplication by inlining the abstracted code back into every caller;
+within each caller, use the parameters being passed to determine the subset of
+the inlined code that this specific caller executes; delete the bits that aren't
+needed for this particular caller." ([[https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction][The Wrong Abstraction]])
