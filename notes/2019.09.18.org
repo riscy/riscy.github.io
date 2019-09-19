@@ -1,0 +1,4 @@
+"Minimize control flow complexity and 'area under ifs', favoring consistent
+execution paths and times over 'optimally' avoiding unnecessary work": "[this]
+usually takes more absolute time, but it reduces the variability in frame times,
+and eliminates a class of bugs."  ([[http://number-none.com/blow/john_carmack_on_inlined_code.html][Inlined Code]])
