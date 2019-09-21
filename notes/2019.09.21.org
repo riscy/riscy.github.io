@@ -1,0 +1,5 @@
+Bad /physical/ design: "A few innocent #includes sometimes expand to megabytes
+of header data once all the recursive inclusion is resolved"; "really easy to
+screw up, but requires concentrated effort and hard work to fix."  Prevent with
+[[http://www.kirkk.com/modularity/2009/12/levelize-modules/][levelizing]], e.g. "header files (.h) cannot include other header files."
+([[https://ourmachinery.com/post/physical-design/][Physical Design of the Machinery]])
