@@ -1,0 +1,4 @@
+"Compression" in object-oriented code can hide context: "the primary feature for
+easy maintenance is locality: Locality is that characteristic of source code
+that enables a programmer to understand that source by looking at only a small
+portion of it."  ([[https://www.dreamsongs.com/Files/PatternsOfSoftware.pdf][Reuse Versus Compression]])
