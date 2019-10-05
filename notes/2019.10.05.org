@@ -1,0 +1,4 @@
+"Building unit tests is itself an interesting test of /orthogonality/. What does
+it take to build and link a unit test?  Do you have to drag in a large
+percentage of the rest of the system just to get a test to compile or link?"
+([[https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition][Orthogonality]])
