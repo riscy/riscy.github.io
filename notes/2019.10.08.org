@@ -1,0 +1,6 @@
+"If I look at any small part of it, I can see what is going on ... like a
+fractal, in which every level of detail is as locally coherent and as well
+thought out as any other" ([[https://www.dreamsongs.com/Files/PatternsOfSoftware.pdf][The Quality Without a Name]]). "If a method call is not
+/separately understandable/, the reader of the code will have to jump to the
+implementation of the method in order to see what's going on." ([[http://principles-wiki.net/principles:principle_of_separate_understandability][Separate
+Understandability]])
