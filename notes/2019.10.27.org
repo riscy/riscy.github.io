@@ -1,0 +1,3 @@
+"Suboptimally optimizing a sensible objective function is a more viable approach
+than optimizing a convex objective function that contains obvious flaws."
+([[https://lvdmaaten.github.io/publications/papers/TR_Dimensionality_Reduction_Review_2009.pdf][Dimensionality Reduction]])
