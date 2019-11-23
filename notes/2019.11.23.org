@@ -1,0 +1,3 @@
+"Objects are state data with attached behavior; Closures are behaviors with
+attached state data and without the overhead of classes."
+([[http://www.norvig.com/design-patterns/design-patterns.pdf][Design Patterns in Dynamic Programming]])
