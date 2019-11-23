@@ -4,7 +4,7 @@ body {
   margin:0;
   font:80% "Lucida Grande", sans-serif;
   line-height:1.5em;
-  background: #f4f4f0;
+  background: #f0f0f0;
   color: #505050;
 }
 
@@ -12,11 +12,11 @@ body {
   max-width:50em;
   padding:30px 20px 20px 20px;
   margin:0 auto;
-  background: #f8f8f4;
+  background: #f8f8f8;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000000;
+  color: #2060e0;
   text-align:center;
 }
 
@@ -24,14 +24,14 @@ h1.title {
   font-size:300%;
   margin-top:0.3em;
   margin-bottom:1em;
-  color: #3070f0;
+  color: #2060e0;
 }
 
 hr {
   height: 0;
   width: 100%;
   border: 0;
-  border-top: 1px solid #E0E0E0;
+  border-top: 4px solid #2060e0;
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -67,8 +67,7 @@ a {
   text-decoration:none;
   font-weight:normal;
   cursor:pointer;
-  color: #30a0c0;
-  color: #3070f0;
+  color: #2060e0;
 }
 
 a:hover {
