@@ -1,7 +1,7 @@
 # -*- mode: org; -*-
 
 #+TITLE: D. Chris Rayner
-#+AUTHOR: Chris Rayner
+#+AUTHOR: D. Chris Rayner
 #+OPTIONS: email:nil toc:nil author:t creator:t num:nil date:t html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="riscy.css"/>
 
