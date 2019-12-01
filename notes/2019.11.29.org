@@ -1,0 +1,4 @@
+"The syntax for functional languages tends to be verb then noun: f(x), whereas
+the syntax for object oriented languages tends to be noun then verb: x.f()";
+"There's a big difference in usability though: auto-complete ... Knowing the type
+of x narrows down the list." ([[https://simblob.blogspot.com/2019/10/verb-noun-vs-noun-verb.html][Verb-noun vs noun-verb]])
