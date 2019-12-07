@@ -1,0 +1,4 @@
+Data abstraction "easily leads to inappropriate reuse [and] will often cause
+un-needed, irrelevant data to be supplied to a function." "The data which /does/
+get used (and hence influences the result of a function) is hidden at the
+function call site." ([[https://github.com/papers-we-love/papers-we-love/blob/master/design/out-of-the-tar-pit.pdf][Out of the Tar Pit]])
