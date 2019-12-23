@@ -1,0 +1,4 @@
+Data /rollup/ "summarizes old, high-granularity data into a reduced granularity
+format for long-term storage" ([[https://www.elastic.co/guide/en/elasticsearch/reference/master/rollup-overview.html][Elasticsearch Reference]]). Spike erosion: "the
+single spike is averaged with an increasing number of 'normal' samples and hence
+decreases in height." ([[https://queue.acm.org/detail.cfm?id=2903468][Statistics for Engineers]])
