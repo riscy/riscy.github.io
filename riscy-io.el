@@ -2,15 +2,22 @@
 
 ;;; Commentary:
 
-;; This file is expected to be run using "emacs --script":
-;; - Defines `riscy-io-get-note' and `riscy-io-compile-notes'
+;; This file is expected to be run using "emacs --script riscy-io.el":
 ;; - Installs "htmlize" (if it isn't installed already)
+;; - Defines `riscy-io-get-note' and `riscy-io-compile-notes'
 ;; - Exports every file listed in `command-line-args'
 
 ;;; Code:
 
+(require 'package)
 (require 'subr-x)
 (require 'ox-html)
+
+;; everything needed to build the .html files:
+(package-initialize)
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+(package-refresh-contents)
+(package-install 'htmlize)  ; in MELPA
 
 (defun riscy-io-get-note (org-file &optional more-text)
   "Pull the preview or fulltext out of ORG-FILE.
@@ -37,10 +44,6 @@ MORE-TEXT can be used to adjust the 'more' button, if any."
    (reverse (directory-files directory))
    "\n\n"))
 
-;; everything needed to build the .html files:
-(package-initialize)
-(package-refresh-contents)
-(package-install 'htmlize)
 (setq org-confirm-babel-evaluate nil)
 (dolist (filename (nthcdr 3 command-line-args))
   (find-file filename)
