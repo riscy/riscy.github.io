@@ -15,9 +15,10 @@
 
 ;; everything needed to build the .html files:
 (package-initialize)
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
-(package-refresh-contents)
-(package-install 'htmlize)  ; in MELPA
+(unless (require 'htmlize nil t)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+  (package-refresh-contents)
+  (package-install 'htmlize))
 
 (defun riscy-io-get-note (org-file &optional more-text)
   "Pull the preview or fulltext out of ORG-FILE.
@@ -45,6 +46,7 @@ MORE-TEXT can be used to adjust the 'more' button, if any."
    "\n\n"))
 
 (setq org-confirm-babel-evaluate nil)
+(setq make-backup-files nil)
 (dolist (filename (nthcdr 3 command-line-args))
   (find-file filename)
   (org-html-export-to-html))
