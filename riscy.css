@@ -2,8 +2,8 @@
 
 body {
   margin:0;
-  font:80% "Lucida Grande", sans-serif;
-  line-height:1.5em;
+  font:90% "Lucida Grande", sans-serif;
+  line-height:1.8em;
   background: #f0f0f0;
   color: #505050;
 }
@@ -21,15 +21,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.title {
-  font-size:300%;
+  font-size:250%;
   margin-top:0.3em;
-  margin-bottom:1em;
+  margin-bottom:1.2em;
   color: #2060e0;
 }
 
 hr {
   height: 0;
-  width: 100%;
+  width: 0%;
   border: 0;
   border-top: 4px solid #2060e0;
   margin-top: 2em;

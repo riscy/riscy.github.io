@@ -5,7 +5,6 @@
 #+OPTIONS: email:nil toc:nil author:t creator:t num:nil date:t html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="riscy.css"/>
 
------
 #+begin_src emacs-lisp :exports results :results raw
 (concat "Hi! " (riscy-io-get-note "portfolio.org" "see portfolio"))
 #+end_src
@@ -24,4 +23,3 @@
 - [[https://www.quora.com/What-are-the-best-secrets-of-great-programmers/answer/Jens-Rantil][Best Kept Secrets of Great Programmers]] :: 39 software development tips as a
      Quora answer, e.g. "Code paths that handle failures are rarely
      tested/executed (for a reason). This makes them a good candidate for bugs."
------
