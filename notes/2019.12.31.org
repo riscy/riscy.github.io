@@ -1,0 +1,4 @@
+Limited to averages: "...the /average/ time between earthquakes [is]
+approximately normal [but] not /everything/ we study is an average"; in fact,
+"the [raw] time between earthquakes is usually modeled by an exponential
+distribution..."  ([[https://lambdaclass.com/data_etudes/central_limit_theorem_misuse/][The Central Limit Theorem and its misuse]])
