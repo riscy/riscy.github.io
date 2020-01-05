@@ -19,8 +19,6 @@
 </script>
 #+end_export
 
------
-
 # preview
 I completed my PhD in computing science in 2014 at the [[https://cs.ualberta.ca][University of Alberta]],
 where I machine-learned pathfinding heuristics.  Since then, I've worked as a
@@ -311,4 +309,3 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
     }
     #+end_src
     @@html:</div>@@
------
