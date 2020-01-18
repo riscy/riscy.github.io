@@ -1,4 +1,4 @@
-"A small, simple API is usually also a hallmark of a well-understood problem"
-([[https://learning.oreilly.com/library/view/site-reliability-engineering/9781491929117/ch09.html][Simplicity]]) but [[https://www.dreamsongs.com/Files/LispGoodNewsBadNews.pdf][Worse is Better]]: "It is more important for the implementation
-to be simple than the interface... Completeness must be sacrificed whenever
-implementation simplicity is jeopardized."
+Better survival characteristics: "The design must be simple, both in
+implementation and interface.  It is more important for the implementation to be
+simple than the interface ... Completeness must be sacrificed whenever
+implementation simplicity is jeopardized."  ([[https://www.dreamsongs.com/Files/LispGoodNewsBadNews.pdf][Worse is Better]])
