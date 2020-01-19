@@ -1,0 +1,4 @@
+"It can be tempting to add a new feature to a model that improves accuracy, even
+when the accuracy gain is very small... Research solutions that provide a tiny
+accuracy benefit at the cost of massive increases in system complexity are
+rarely wise practice." ([[https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf][Epsilon Features]])
