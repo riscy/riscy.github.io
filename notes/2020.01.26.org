@@ -1,0 +1,4 @@
+"An increase in the score produced by a base model should not decrease the score
+of the ensemble"; "each model should either be an ensemble [or a base model] but
+not both"; "[calibrate the base models] so that changes [don't] confuse the
+ensemble." ([[https://developers.google.com/machine-learning/guides/rules-of-ml/#rule_40_keep_ensembles_simple][Keep Ensembles Simple]])
