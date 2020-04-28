@@ -1,0 +1,9 @@
+A complicated system --- software or otherwise --- "not only makes our lives
+difficult in the present, but it /accelerates the loss of knowledge over
+time/... Each individual person knows a smaller percent... it's harder for them
+to transmit their knowledge onto people in the future... and deep knowledge
+becomes replaced by trivia." ([[https://www.youtube.com/watch?v=pW-SOdj4Kkk][Preventing the Collapse of Civilization]])
+
+Bonus: Abstraction saves effort at first, "somewhere through this chain it
+becomes wrong. And that's how people are wrong a lot of the time... you start
+out by being right and then you extrapolate it too far."
