@@ -1,0 +1,6 @@
+Externalize infrastructure using layers: "code cannot depend on layers
+further out from the core [i.e.] the Domain Model is the very center
+[and] the outer layer is reserved for things that change often.
+[Since] the application core needs implementation... we need some
+mechanism for injecting that code" (abstract interfaces, dependency
+injection). ([[https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/][Onion Architecture]])
