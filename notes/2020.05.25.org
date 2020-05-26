@@ -1,0 +1,3 @@
+"...deliberately change notation in order to 'escape from the
+formalism' [and] highlight different aspects of a problem or
+solution." ([[https://www.researchgate.net/publication/48990518_Insights_from_Expert_Software_Design_Practice][Insights from Expert Software Design Practice]])
