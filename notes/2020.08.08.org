@@ -1,0 +1,4 @@
+"...neither unit tests nor assertions find all bugs, so we should use
+both." Assert math (e.g. "problems that are inherently much more
+difficult to solve than to verify"), preconditions, postconditions,
+invariants, and the spec. ([[https://blog.regehr.org/archives/1091][Use of Assertions]])
