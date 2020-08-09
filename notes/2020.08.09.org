@@ -1,0 +1,5 @@
+Assert configuration: "Configurations are by their nature ephemeral
+and less well tested. Assertions about configuration invariants can be
+critical to prevent mistakes." Aim to be able "to present visual
+side-by-side differences (diffs) of two configurations."
+([[https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf][Configuration Debt]])
