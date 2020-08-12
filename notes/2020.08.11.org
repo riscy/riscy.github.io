@@ -1,0 +1,4 @@
+"The choice of the name 'computing science' instead of the more common
+'computer science' was deliberate in order to indicate that computing
+rather than computers was to be the foundation of the discipline."
+([[https://webdocs.cs.ualberta.ca/~smillie/CompSci/DeptHist1993rev.pdf][Computing Science at the University of Alberta]])
