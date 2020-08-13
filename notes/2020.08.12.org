@@ -1,0 +1,5 @@
+"Original ideas are rarely born in full generality [and] their
+communication is not always a simple or straightforward task." E.g.
+"van Wijngaarden said that goto's were unnecessary [but] Dijkstra
+stretched the point to say that goto's were inconvenient."
+([[https://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/reynolds-discoveries.pdf][Discoveries of Continuations]])
