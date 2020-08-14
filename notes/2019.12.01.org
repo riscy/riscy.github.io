@@ -1,4 +1,4 @@
-The third type of factory (2008) with "no direct equivalent in /Design
+The third type of factory with "no direct equivalent in /Design
 Patterns/": "where a class seems to require multiple constructors with the same
 signature, replace the constructors with /static factory methods/ and carefully
 chosen names..."  ([[https://www.drdobbs.com/jvm/creating-and-destroying-java-objects-par/208403883][Creating and Destroying Java Objects]])
