@@ -1,0 +1,4 @@
+Performance is underrated -- it is both "a feature [that]
+fundamentally alters how a tool is used" and can "simplify
+architecture [since] attempts to add performance to a slow system
+often add complexity..." ([[https://blog.nelhage.com/post/reflections-on-performance/][Reflections on software performance]])
