@@ -1,0 +1,5 @@
+"Complex: state, objects, methods, syntax, inheritance, switch, vars,
+imperative loops, actors, ORM, conditionals. Simpler: values,
+functions, namespaces, data, polymorphism, managed refs, [[https://kellysutton.com/2018/08/02/simple-made-easy-imperative-loops-vs-set-functions.html][set
+functions]], queues, declarative data manipulation, rules, consistency."
+([[https://www.infoq.com/presentations/Simple-Made-Easy/][Simple != Easy]])
