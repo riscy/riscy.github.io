@@ -1,0 +1,4 @@
+Minimize cognitive load: "Naming consistency means both internal naming
+consistency (don't call 'dim' what is called 'axis' in other places) and
+consistency with established conventions for the problem domain." ([[https://medium.com/s/story/notes-to-myself-on-software-engineering-c890f16f4e4d][Notes to
+Myself on Software Engineering]])
