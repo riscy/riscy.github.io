@@ -1,0 +1,2 @@
+"Don't include a sentence in documentation if its negation is obviously false."
+([[http://quotes.cat-v.org/programming/bumper-sticker-computer-science][Test of Negation]])
