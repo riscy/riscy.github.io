@@ -1,0 +1,4 @@
+"Copy-paste code ... to get a handle on how it will be used"; "keep the
+hard-to-delete parts as far away as possible from the easy-to-delete parts";
+"[minimize] responsibilities of library code, even if we have to write
+boilerplate ..."  ([[https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to][Write code that is easy to delete, not easy to extend]])
