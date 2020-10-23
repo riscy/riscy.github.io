@@ -1,0 +1,4 @@
+"Throw exceptions only to indicate exceptional conditions" and "avoid return
+values that demand exceptional processing. Clients will forget to write the
+specialcase code, leading to bugs. For example, return zero-length arrays or
+collections rather than nulls." ([[https://www.infoq.com/articles/API-Design-Joshua-Bloch/][Bumper-Sticker API Design]])
