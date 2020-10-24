@@ -1,0 +1,4 @@
+"A solid systems's approach should not be based on /but it works/" ([[https://bsd.slashdot.org/story/00/12/11/1455210/theo-de-raadt-responds][Theo de
+Raadt Responds]]) but "contracts enforced by the compiler are usually better than
+contracts enforced by runtime checks, or worse, documentation-only contracts."
+([[https://testing.googleblog.com/2018/07/code-health-make-interfaces-hard-to.html][Make Interfaces Hard to Misuse]])
