@@ -1,0 +1,4 @@
+In pursuit of coverage, "splitting up functions [destroyed] system architecture
+and code comprehension along with it": "functions no longer encapsulated
+algorithms.  It was no longer possible to reason about the execution context of
+a line of code."  ([[https://pythontesting.net/strategy/why-most-unit-testing-is-waste/][Why Most Unit Testing is Waste]])
