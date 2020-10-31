@@ -1,0 +1,4 @@
+"Timid code is kind of like a poorly told story" -- "it's uncertain, it's
+constantly second-guessing itself, it's filled with digressions and provisos...
+It's constantly mixing together input handling and business logic and error
+handling." ([[https://www.youtube.com/watch?v=T8J0j2xJFgQ][Confident Code]])
