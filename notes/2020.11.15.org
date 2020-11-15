@@ -1,0 +1,5 @@
+"Production versions of the hypot function ...  are much more complex than you
+might imagine." ([[https://walkingrandomly.com/?p=6633][Hypot -- A story of a 'simple' function]]).  "Floating-point math
+has a reputation for producing results that are unpredictably wrong [but] IEEE
+floating-point math is designed to, whenever practical, give the best possible
+answer." ([[https://randomascii.wordpress.com/2014/01/27/theres-only-four-billion-floatsso-test-them-all/][There are Only Four Billion Floats -- So Test Them All!]])
