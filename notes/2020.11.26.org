@@ -1,0 +1,4 @@
+"When numbers of different magnitudes are [added/subtracted], digits of the
+smaller-magnitude number are lost... when numbers very close to each other are
+subtracted, the result's less significant digits consist mostly of rounding
+errors."  ([[https://floating-point-gui.de/errors/propagation/][The Floating-Point Guide - Error Propagation]])
