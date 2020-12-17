@@ -1,0 +1,4 @@
+"In some systems, a failure in one area can negate great effort in all other
+areas... fixing the 'zero' often has a much greater effect than does trying to
+enlarge the other areas" ([[https://fs.blog/mental-models/][Multiplying by Zero]]). Or "avoiding problems can be
+more important than scoring wins." ([[https://www.collaborativefund.com/blog/100-little-ideas/][Inversion]])
