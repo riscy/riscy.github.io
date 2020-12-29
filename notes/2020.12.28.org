@@ -1,0 +1,4 @@
+"A large system is in a state of partial failure almost continuously; the math
+is against you... as soon as your program becomes /part of a system/, these
+error modes [uncorrelated, distributed] are going to go right through your
+program."  ([[https://www.youtube.com/watch?v=ROor6_NGIWU][The Language of the System]])
