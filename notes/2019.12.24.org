@@ -1,4 +1,4 @@
-"...once you have encapsulated some task in automation, anyone can execute the
+"Once you have encapsulated some task in automation, anyone can execute the
 task. Therefore, the time savings apply across anyone who would plausibly use
 the automation. Decoupling operator from operation is very powerful." ([[https://learning.oreilly.com/library/view/site-reliability-engineering/9781491929117/ch07.html][Site
 Reliability Engineering]])

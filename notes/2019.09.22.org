@@ -1,4 +1,4 @@
 "Implement new ideas in parallel with the old ones, rather than mutating the
 existing code"; "If the task you are working on can be expressed as a pure
 function that simply processes input parameters into a return structure, it is
-easy to switch it out..."  ([[http://web.archive.org/web/20140719065227/http://www.altdev.co/2011/11/22/parallel-implementations/][Parallel Implementations]])
+easy to switch it out."  ([[http://web.archive.org/web/20140719065227/http://www.altdev.co/2011/11/22/parallel-implementations/][Parallel Implementations]])

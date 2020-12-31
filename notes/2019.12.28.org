@@ -1,4 +1,4 @@
 "Since tests don't have tests, it should be easy for humans to manually inspect
 them for correctness, even at the expense of greater code duplication. This
-means that the DRY principle often isn’t a good fit for unit tests..." ([[https://testing.googleblog.com/2019/12/testing-on-toilet-tests-too-dry-make.html][Tests
+means that the DRY principle often isn’t a good fit for unit tests." ([[https://testing.googleblog.com/2019/12/testing-on-toilet-tests-too-dry-make.html][Tests
 Too Dry?  Make Them Damp!]])

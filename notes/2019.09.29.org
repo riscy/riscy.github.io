@@ -1,4 +1,4 @@
 "There is a continuum of value in how pure a function is, and the value step
 from almost-pure to completely-pure is smaller than that from spaghetti-state to
-mostly-pure. Moving a function /towards/ purity improves the code..."
+mostly-pure. Moving a function /towards/ purity improves the code."
 ([[https://gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php][Functional programming in C++]])

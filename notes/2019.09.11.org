@@ -1,4 +1,4 @@
-"...design principle devised by Bertrand Meyer ... every method should either be
+"A design principle devised by Bertrand Meyer ... every method should either be
 a command that performs an action (changes state), or a query that returns
 answer to the caller (without changing the state or causing side-effects), but
 not both." ([[https://abdullin.com/command-query-separation/][Command-Query Separation]])
