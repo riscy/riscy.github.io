@@ -1,4 +1,4 @@
-;;; riscy-io.el --- Elisp functions for exporting riscy.io html.
+;;; riscy-io.el --- Elisp functions for exporting riscy.io html
 
 ;;; Commentary:
 
@@ -12,6 +12,8 @@
 (require 'package)
 (require 'subr-x)
 (require 'ox-html)
+
+(unless noninteractive (error "This file must be run with 'emacs --script'"))
 
 ;; everything needed to build the .html files:
 (package-initialize)
@@ -35,7 +37,11 @@ MORE-TEXT can be used to adjust the 'more' button, if any."
                                  (or more-text "more")))))))
 
 (defun riscy-io-compile-notes (directory)
-  "Compile commonplace notes from DIRECTORY."
+  "Compile commonplace notes from DIRECTORY.
+Call this from an org source block as follows:
+#+begin_src emacs-lisp :exports results :results raw
+  (riscy-io-compile-notes DIRECTORY)
+#+end_src"
   (mapconcat
    (lambda (org-file)
      (when (string-match "^[^_]*\\.org$" org-file)
