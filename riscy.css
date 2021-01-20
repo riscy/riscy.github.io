@@ -28,9 +28,9 @@ h1.title {
 
 hr {
   height: 0;
-  width: 0%;
+  width: 100%;
   border: 0;
-  border-top: 4px solid #2060e0;
+  border-top: 2px solid #e0e0e0;
   margin-top: 2em;
   margin-bottom: 2em;
 }

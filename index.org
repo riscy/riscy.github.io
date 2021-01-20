@@ -25,3 +25,9 @@
      tested/executed (for a reason). This makes them a good candidate for bugs."
 - [[https://www.infoq.com/articles/API-Design-Joshua-Bloch/][Bumper-Sticker API Design]] :: 38 API design tips, e.g. "Keep APIs
      free of implementations details... be wary of overspecification."
+
+-----
+
+@@html:<center>@@
+/This site does not necessarily represent my employer's positions, strategies, or opinions./
+@@html:</center>@@
