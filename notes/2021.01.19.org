@@ -1,0 +1,4 @@
+"Automation frees us from certain kinds of work [but] obliges us to know more
+than ever... Reasons for system failure may not be as commonplace as before, but
+they are less predictable and require both more time and higher levels of
+expertise to remedy." ([[https://www.theautomationengineer.com/insight/the-automation-paradox/][The Automation Paradox]])
