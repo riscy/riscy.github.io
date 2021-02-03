@@ -45,9 +45,14 @@ Call this from an org source block as follows:
   (mapconcat
    (lambda (org-file)
      (when (string-match "^[^_]*\\.org$" org-file)
-       (concat "*" (string-trim-right org-file ".org") "* "
-               (riscy-io-get-note
-                (concat (file-name-as-directory directory) org-file)))))
+       (let ((basename (file-name-base org-file)))
+         (format
+          "@@html:<div id=%s><a href=#%s><b>%s</b></a>@@ %s
+           @@html:</div>@@"
+          basename basename basename
+          (riscy-io-get-note
+           (concat (file-name-as-directory directory) org-file))))))
+   ;; reverse chronological order:
    (reverse (directory-files directory))
    "\n\n"))
 
