@@ -4,7 +4,7 @@ body {
   margin:0;
   font:90% "Lucida Grande", sans-serif;
   line-height:1.8em;
-  background: #f0f0f0;
+  background: #eee7e1;
   color: #505050;
 }
 
@@ -12,12 +12,12 @@ body {
   max-width:50em;
   padding:40px 20px 20px 20px;
   margin:0 auto;
-  background: #f8f8f8;
+  background: #fef7f1;
 }
 
 h1, h2, h3, h4, h5, h6 {
   text-align:center;
-  color: #305090;
+  color: #903030;
 }
 
 h1.title {
@@ -30,7 +30,7 @@ hr {
   height: 0;
   width: 100%;
   border: 0;
-  border-top: 2px solid #e0e0e0;
+  border-top: 2px solid #eee7e1;
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -66,7 +66,7 @@ a {
   text-decoration:none;
   font-weight:normal;
   cursor:pointer;
-  color: #2060e0;
+  color: #903030;
 }
 
 a:hover {
@@ -149,11 +149,11 @@ code {
 dt {
   margin-top: 5px;
   font-weight:bold;
-  color: #000000;
+  color: #404040;
 }
 
 b {
-  color: #000000;
+    color: #404040;
 }
 
 dl dt a {
@@ -162,4 +162,8 @@ dl dt a {
 
 dd {
   margin-left:3em;
+}
+
+:target {
+    background: #FEC;
 }
