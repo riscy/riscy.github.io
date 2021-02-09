@@ -69,10 +69,6 @@ a {
   color: #903030;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 /* Table of Contents */
 #table-of-contents {
   float: left;
