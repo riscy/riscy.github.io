@@ -1,0 +1,4 @@
+Legacy software "is a knowledge base which has accumulated 25 years of various
+different people's ideas about how to get this or that problem solved. And
+migrating to a new thing isn't just about building the new thing, it's an
+archaeology expedition."  ([[https://signalsandthreads.com/build-systems/][Build Systems]])
