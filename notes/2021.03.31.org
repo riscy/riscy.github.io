@@ -1,0 +1,4 @@
+"Much of the logic in [an object-oriented] app exists in the messages, and the
+messages don't actually happen until you reconstitute it all and put it in
+memory [or] construct an imaginary mental model and supply the messages yourself
+in order to understand what's going on." ([[https://www.youtube.com/watch?v=npOGOmkxuio][Rules]])
