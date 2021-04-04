@@ -1,0 +1,4 @@
+"Expressing constraints, relationships and processing instructions in less
+powerful languages increases the flexibility with which information can be
+reused: the less powerful the language, the more you can do with the data stored
+in that language." ([[https://www.w3.org/2001/tag/doc/leastPower.html][Rule of Least Power]])
