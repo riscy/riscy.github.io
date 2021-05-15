@@ -1,0 +1,5 @@
+"We moved away from 'pile of code' [goto, global-everything] to structured
+programming, and that additional structure gave us /more/ flexibility, it gave
+us invariants that allowed local reasoning.  But now the higher-level structures
+have taken those invariants and spread them through your whole codebase."
+([[https://www.youtube.com/watch?v=v_yzLe-wnfk][Maintainability and Refactoring Impact of Higher-Level Design Features]])
