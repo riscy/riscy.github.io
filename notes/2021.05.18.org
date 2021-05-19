@@ -1,0 +1,5 @@
+"The cost of delay is one cost that a successful presumptive feature imposes,
+but another is the /cost of carry/. The code for the presumptive feature adds
+some complexity to the software, this complexity makes it harder to modify and
+debug that software, thus increasing the cost of other features...  A lot of
+small yagni decisions add up to significant reductions in complexity." ([[https://www.martinfowler.com/bliki/Yagni.html][Yagni]])
