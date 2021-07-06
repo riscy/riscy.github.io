@@ -17,7 +17,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   text-align:center;
-  color: #903030;
+  color: #0080c0;
 }
 
 h1.title {
@@ -66,7 +66,7 @@ a {
   text-decoration:none;
   font-weight:normal;
   cursor:pointer;
-  color: #903030;
+  color: #0080c0;
 }
 
 /* Table of Contents */

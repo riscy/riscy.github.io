@@ -29,5 +29,5 @@
 -----
 
 @@html:<center>@@
-/This site does not necessarily represent my employer's positions, strategies, or opinions./
+This site does not necessarily represent my employer's positions, strategies, or opinions.
 @@html:</center>@@
