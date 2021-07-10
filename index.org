@@ -4,6 +4,7 @@
 #+AUTHOR: D. Chris Rayner
 #+OPTIONS: email:nil toc:nil author:t creator:t num:nil date:t html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="riscy.css"/>
+#+HTML_HEAD: <link rel="icon" type="image/png" href="favicon.ico"/>
 
 #+begin_src emacs-lisp :exports results :results raw
 (concat "Hi! " (riscy-io-get-note "portfolio.org" "see portfolio"))
