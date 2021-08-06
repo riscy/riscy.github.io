@@ -1,0 +1,4 @@
+"Two programs can compute the same function but may have different testabilities
+[probability of failure given a fault]... a program with low testability is
+unlikely to reveal faults through random black-box testing."  ([[https://www.unf.edu/~ncoulter/cen6070/handouts/minorreport/Voas.pdf][Predicting Where
+Faults Can Hide from Testing]])
