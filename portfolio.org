@@ -1,20 +1,52 @@
 # -*- mode: org; -*-
 
 #+TITLE: Portfolio
-#+SUBTITLE: [[https://riscy.io][riscy.io]]
+#+SUBTITLE: [[./index.html][← riscy.io]]
 #+AUTHOR: D. Chris Rayner
 #+OPTIONS: email:nil toc:nil author:t creator:t num:nil date:t html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="riscy.css"/>
 
 # preview
-I completed my PhD in computing science in 2014 at the [[https://cs.ualberta.ca][University of Alberta]],
-where I machine-learned pathfinding heuristics.  Since then, I've worked as a
-data scientist on [[https://dissolve.com][Dissolve]]'s search engine, and then in applied machine learning
-at [[https://ibm.com][IBM]]'s Global Chief Data Office.
+I'm a [[https://riscy.io/#2020.08.11][computing scientist]] interested in software quality and all sorts of
+problems in optimization and search.  I completed my PhD in 2014 at the
+[[https://cs.ualberta.ca][University of Alberta]], where I machine-learned pathfinding heuristics.  Since
+then I worked with a great team on advancing the search engine at [[https://dissolve.com][Dissolve]], and
+today I work in Applied AI/ML at the [[https://ibm.com][IBM]] Global Chief Data Office.
 
 This is a portfolio of recent work.  You can also find me on [[https://github.com/riscy][GitHub]], [[https://linkedin.com/in/riscy/][LinkedIn]],
 and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
 
+* IBM Chief Data Office
+  :PROPERTIES:
+  :CUSTOM_ID: metadata_and_data_governance
+  :END:
+  I joined the [[https://ibm.com][IBM]] Global Chief Data Office as a senior data scientist in
+  November 2017.  IBM is huge and over a century old which brings all kinds of
+  challenges into play, but this also means there are open spaces where machine
+  learning and other new processes can come in and have lasting effects:
+  - International regulatory compliance :: When I joined IBM, the looming [[https://gdpr-info.eu/][GDPR]]
+    gave impetus for tools to scan for personal data, and I led a team in
+    developing one.  A key idea was to 'flip the script' and approach the design
+    as if our client were a regulatory auditor as opposed to an internal
+    employee.  At the tool's core was a deep neural network optimized against
+    the structure of relational databases.
+  - Static analysis of machine learning codebases :: I built an automated code
+    review service specialized to Python machine learning projects (and their
+    idiosyncrasies).  This provided plug & play static analysis to dozens of
+    projects IBM-wide.  It became, by a wide margin, the most popular component
+    of our internal MLOps effort.
+  - Deploying machine learning models :: This is the most tenuous phase of any
+    machine learning project -- and it has become my wheelhouse!  It includes
+    reproducible builds, monitoring, and software quality (clarity, performance,
+    tests).  But one must also understand/document upstream data, maintain
+    pipelines, and uncover silent failures (information leakage, domain shift,
+    bad assumptions).
+  - Deep learning for data cataloging and search :: To maintain a searchable
+    inventory of IBM's internal data, the CDO has to integrate inputs from many
+    different business units.  This is overwhelming without automation.  I play
+    a key role in developing and deploying the deep learning models that support
+    this effort, the likes of which I helped commercialize and build into [[https://www.ibm.com/cloud/watson-knowledge-catalog][Watson
+    Knowledge Catalog]], a flagship IBM product.
 * Retrieve and Rank
   :PROPERTIES:
   :CUSTOM_ID: retrieve_and_rank
@@ -176,7 +208,7 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
     Finnegan Southey, Michael Bowling, Bryce Larson, Carmelo Piccione, Neil
     Burch, Darse Billings, *Chris Rayner*. Proceedings of the Twenty-First
     Conference on Uncertainty in Artificial Intelligence (UAI), 2005.
-* Citing
+* BibTeX Entries
 
   @@html:<div id="bibtex_ohs">@@
   #+begin_src bibtex
@@ -304,3 +336,9 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
     }
   #+end_src
   @@html:</div>@@
+
+-----
+
+@@html:<center>@@
+This site does not necessarily represent my employer's positions, strategies, or opinions.
+@@html:</center>@@
