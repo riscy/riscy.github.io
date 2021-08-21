@@ -1,0 +1,5 @@
+"The only way information can be lost is by inputs leading to the same output
+(collisions)": "if the function is one to one there are no collisions and the
+/Squeeziness/ [information loss] of the function is 0" and "if there were no
+possible collisions then fault masking would not be possible." ([[http://www0.cs.ucl.ac.uk/staff/D.Clark/pubs/ITMAFM-IPL-accepted.pdf][Squeeziness: An
+Information Theoretic Measure for Avoiding Fault Masking]])
