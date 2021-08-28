@@ -2,21 +2,20 @@
 
 body {
   margin:0;
-  font:90% "Lucida Grande", sans-serif;
+  font:90% "Verdana", sans-serif;
   line-height:1.8em;
-  background: #eee7e1;
+  background: #eeeeee;
   color: #505050;
 }
 
 #content {
-  max-width:50em;
+  max-width:53em;
   padding:40px 20px 20px 20px;
   margin:0 auto;
-  background: #fef7f1;
+  background: #fafafa;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  text-align:center;
   color: #0080c0;
 }
 
@@ -30,7 +29,7 @@ hr {
   height: 0;
   width: 100%;
   border: 0;
-  border-top: 2px solid #eee7e1;
+  border-top: 2px solid #0080c0;
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -44,7 +43,6 @@ h2 {
 h3 {
   font-size:80%;
   margin:0px;
-  text-align:center;
 }
 
 h4,h5,h6 {
