@@ -1,0 +1,4 @@
+"Encapsulation can help hide bugs and makes test harder; inheritance requires
+extensive retesting of inherited code; and polymorphism and dynamic binding call
+for new coverage models."  ([[https://www.cs.drexel.edu/~spiros/teaching/CS576/papers/fose07-testing.pdf][Software Testing Research: Achievements, Challenges,
+Dreams]])
