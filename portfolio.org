@@ -16,6 +16,8 @@ today I work in Applied AI/ML at the [[https://ibm.com][IBM]] Global Chief Data 
 This is a portfolio of recent work.  You can also find me on [[https://github.com/riscy][GitHub]], [[https://linkedin.com/in/riscy/][LinkedIn]],
 and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
 
+------
+
 * IBM Chief Data Office
   :PROPERTIES:
   :CUSTOM_ID: metadata_and_data_governance

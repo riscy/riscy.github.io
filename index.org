@@ -10,7 +10,7 @@
 (concat "Hi! " (riscy-io-get-note "portfolio.org" "see portfolio"))
 #+end_src
 
-* Notes
+-------
 
 #+begin_src emacs-lisp :exports results :results raw
 (riscy-io-compile-notes "./notes")
