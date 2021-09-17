@@ -1,7 +1,7 @@
 # -*- mode: org; -*-
 
 #+TITLE: Portfolio
-#+SUBTITLE: [[./index.html][← riscy.io]]
+#+SUBTITLE: [[https://riscy.io][← riscy.io]]
 #+AUTHOR: D. Chris Rayner
 #+OPTIONS: email:nil toc:nil author:t creator:t num:nil date:t html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="riscy.css"/>
