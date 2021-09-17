@@ -159,5 +159,7 @@ dd {
 }
 
 :target {
-    background: #FEC;
+    text-decoration: underline;
+    text-decoration-color: #fa3;
+    text-decoration-thickness: 0.2em;
 }
