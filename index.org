@@ -29,6 +29,10 @@
 
 -----
 
-@@html:<center>@@
-This site does not necessarily represent my employer's positions, strategies, or opinions.
-@@html:</center>@@
+#+begin_export html
+<center>
+  <font size="-1">
+    This site does not necessarily represent my employer's positions, strategies, or opinions.
+  </font>
+</center>
+#+end_export

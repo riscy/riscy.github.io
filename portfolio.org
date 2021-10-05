@@ -104,16 +104,16 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
   multidimensional scaling), provided a framework for analyzing past approaches,
   and boosted search performance in several domains.
   - [[./pdf/RaynerEtAl-11.pdf][Euclidean Heuristic Optimization]]
-    ([[./pdf/RaynerEtAl-11_slides.pdf][slides]], [[./pdf/RaynerEtAl-11_poster.pdf][poster]], @@html:<a href="#bibtex_eho">bib</a>@@)\\
+    ([[./pdf/RaynerEtAl-11_slides.pdf][slides]], [[./pdf/RaynerEtAl-11_poster.pdf][poster]], [[bibtex_eho][bib]])
     *Chris Rayner*, Michael Bowling, Nathan Sturtevant.  Proceedings of the
     Twenty-Fifth National Conference on Artificial Intelligence
     (AAAI), 2011.
   - [[./pdf/RaynerEtAl-13.pdf][Subset Selection of Search Heuristics]]
-    ([[./pdf/RaynerEtAl-13_poster.pdf][poster]], @@html:<a href="#bibtex_hsubset">bib</a>@@) \\
+    ([[./pdf/RaynerEtAl-13_poster.pdf][poster]], [[bibtex_hsubset][bib]]) \\
     *Chris Rayner*, Nathan Sturtevant, Michael Bowling.  Proceedings of the
     International Joint Conference on Artificial Intelligence (IJCAI), 2013.
   - [[file:pdf/phd_thesis.pdf][Optimization for Heuristic Search]]
-    (@@html:<a href="#bibtex_ohs">bib</a>@@) \\
+    ([[bibtex_ohs][bib]]) \\
     *Chris Rayner*.  Ph.D. Thesis, University of Alberta, Edmonton, AB, Canada, 2014.
 * Data Mining Counter-Strike
   :PROPERTIES:
@@ -142,7 +142,7 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
   player movement and classifiers to distinguish human and machine play.
 
   - [[./pdf/msc_thesis.pdf][Analysing Openings in Tactical Simulations]]
-    (@@html:<a href="#bibtex_css">bib</a>@@) \\
+    ([[bibtex_css][bib]]) \\
     *Chris Rayner*. M.Sc. Thesis, University of Alberta, Edmonton, AB, Canada, 2008.
   - This work was featured among the original illustrations in IEEE Spectrum
     Magazine's December 2008 article, [[http://spectrum.ieee.org/computing/software/bots-get-smart][Bots Get Smart]] (Jonathan Schaeffer, Vadim
@@ -187,47 +187,46 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
   other projects spanning computer poker, optimizing compilers, subjective
   robotics, and real-time heuristic search:
   - [[./pdf/BulitkoEtAl-12.pdf][On Case Base Formation in Real-Time Heuristic Search]]
-    (@@html:<a href="#bibtex_casebase">bib</a>@@) \\
+    ([[bibtex_casebase][bib]]) \\
     Vadim Bulitko, *Chris Rayner*, Ramon Lawrence. Proceedings of the Artificial
     Intelligence and Interactive Digital Entertainment Conference (AIIDE), 2012.
   - [[./pdf/Rayner-09.pdf][Evolving Feature Selectors to Inform Compiler Optimizations]]
-    (@@html:<a href="#bibtex_compiler">bib</a>@@) \\
+    ([[bibtex_compiler][bib]]) \\
     *Chris Rayner*.  A final project report describing an emulation of
     Leather /et al/.'s 2009 work.  For the course /Machine Learning and
     Optimizing Compilers/. University of Alberta, 2009.
   - [[./pdf/BellemareEtAl-09.pdf][The Critterbot: a Subjective Robotic Project]]
-    (@@html:<a href="#bibtex_cbot">bib</a>@@) \\
+    ([[bibtex_cbot][bib]]) \\
     Marc Bellemare, Michael Bowling, Thomas Degris, Anna Koop, *Chris Rayner*,
     Michael Sokolsky, Richard Sutton, Adam White, Eric Wiewiora.
     Multidisciplinary Symposium on Reinforcement Learning (MSRL), 2009.
   - [[./pdf/RaynerEtAl-07.pdf][Real-Time Heuristic Search with a Priority Queue]]
-    (@@html:<a href="#bibtex_plrtaIJCAI">bib</a>@@) \\
+    ([[bibtex_plrtaIJCAI][bib]]) \\
     *Chris Rayner*, Katherine Davison, Vadim Bulitko, Kenneth Anderson, Jieshan
     Lu.  Proceedings of the Twentieth International Joint Conference on Artificial
     Intelligence (IJCAI), 2007.
   - [[./pdf/SoutheyEtAl-05.pdf][Bayes' Bluff: Opponent Modelling in Poker]]
-    (@@html:<a href="#bibtex_poker">bib</a>@@) \\
+    ([[bibtex_poker][bib]]) \\
     Finnegan Southey, Michael Bowling, Bryce Larson, Carmelo Piccione, Neil
     Burch, Darse Billings, *Chris Rayner*. Proceedings of the Twenty-First
     Conference on Uncertainty in Artificial Intelligence (UAI), 2005.
 * BibTeX Entries
 
-  @@html:<div id="bibtex_ohs">@@
+  #+name: bibtex_ohs
   #+begin_src bibtex
     @PhdThesis{Rayner-14,
-      title        = {{Optimization for Heuristic Search}},
+      title        = {Optimization for Heuristic Search},
       author       = {Chris Rayner},
       school       = {University of Alberta},
       year         = 2014,
       month        = 12,
     }
   #+end_src
-  @@html:</div>@@
 
-  @@html:<div id="bibtex_hsubset">@@
+  #+name: bibtex_hsubset
   #+begin_src bibtex
     @inproceedings{RaynerEtAl-13,
-      title        = {{Subset Selection of Search Heuristics}},
+      title        = {Subset Selection of Search Heuristics},
       author       = {Chris Rayner and Nathan Sturtevant and Michael Bowling},
       booktitle    = {Proceedings of the International Joint Conference on
                       Artificial Intelligence (IJCAI)},
@@ -239,12 +238,11 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
       address      = {Beijing, China},
     }
   #+end_src
-  @@html:</div>@@
 
-  @@html:<div id="bibtex_casebase">@@
+  #+name: bibtex_casebase
   #+begin_src bibtex
     @inproceedings{BulitkoEtAl-12,
-      title        = {{On Case Base Formation in Real-Time Heuristic Search}},
+      title        = {On Case Base Formation in Real-Time Heuristic Search},
       author       = {Vadim Bulitko and Chris Rayner and Ramon Lawrence},
       booktitle    = {Proceedings of the Artificial Intelligence and
                       Interactive Digital Entertainment Conference (AIIDE)},
@@ -252,12 +250,11 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
       year         = 2012,
     }
   #+end_src
-  @@html:</div>@@
 
-  @@html:<div id="bibtex_eho">@@
+  #+name: bibtex_eho
   #+begin_src bibtex
     @inproceedings{RaynerEtAl-11,
-      title                   = {{Euclidean Heuristic Optimization}},
+      title                   = {Euclidean Heuristic Optimization},
       author                  = {Chris Rayner and Michael Bowling and Nathan Sturtevant},
       booktitle               = {Proceedings of the Twenty-Fifth National Conference on
                                   Artificial Intelligence (AAAI)},
@@ -269,24 +266,22 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
       address                 = {San Francisco, California},
     }
   #+end_src
-  @@html:</div>@@
 
-  @@html:<div id="bibtex_compiler">@@
+  #+name: bibtex_compiler
   #+begin_src bibtex
     @report{Rayner-09,
-      title       = {{Evolving Feature Selectors to Inform Compiler Optimizations}},
+      title       = {Evolving Feature Selectors to Inform Compiler Optimizations},
       author      = {Chris Rayner},
       institution = {University of Alberta},
       month       = dec,
       year        = 2009,
     }
   #+end_src
-  @@html:</div>@@
 
-  @@html:<div id="bibtex_cbot">@@
+  #+name: bibtex_cbot
   #+begin_src bibtex
     @inproceedings{BellemareEtAl-09,
-      title        = {{The Critterbot: a Subjective Robotic Project}},
+      title        = {The Critterbot: a Subjective Robotic Project},
       author       = {Marc Bellemare and Michael Bowling and Thomas Degris
                       and Anna Koop and Chris Rayner and Michael Sokolsky
                       and Richard Sutton and Adam White and Eric Wiewiora},
@@ -294,12 +289,11 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
       year         = 2009,
     }
   #+end_src
-  @@html:</div>@@
 
-  @@html:<div id="bibtex_css">@@
+  #+name: bibtex_css
   #+begin_src bibtex
     @MastersThesis{Rayner-08,
-      title        = {{Analysing Openings in Tactical Simulations}},
+      title        = {Analysing Openings in Tactical Simulations},
       author       = {Chris Rayner},
       school       = {University of Alberta},
       year         = 2008
@@ -307,12 +301,11 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
       day          = 11
     }
   #+end_src
-  @@html:</div>@@
 
-  @@html:<div id="bibtex_plrtaIJCAI">@@
+  #+name: bibtex_plrtaIJCAI
   #+begin_src bibtex
     @inproceedings{RaynerEtAl-07,
-      title        = {{Real-Time Heuristic Search with a Priority Queue}},
+      title        = {Real-Time Heuristic Search with a Priority Queue},
       author       = {Chris Rayner and Katherine Davison and Vadim Bulitko and Kenneth
                       Anderson and Jieshan Lu},
       acceptrate   = {35\%},
@@ -321,13 +314,12 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
       year         = 2007,
       pages        = {2372--2377}
     }
-                      #+end_src
-  @@html:</div>@@
+  #+end_src
 
-  @@html:<div id="bibtex_poker">@@
+  #+name: bibtex_poker
   #+begin_src bibtex
     @inproceedings{SoutheyEtAl-05,
-      title        = {{Bayes' Bluff: Opponent Modelling in Poker}},
+      title        = {Bayes' Bluff: Opponent Modelling in Poker},
       author       = {Finnegan Southey and Michael Bowling and Bryce Larson and
                       Carmelo Piccione and Neil Burch and Darse Billings and Chris
                       Rayner},
@@ -337,10 +329,13 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
       year         = 2005,
     }
   #+end_src
-  @@html:</div>@@
 
 -----
 
-@@html:<center>@@
-This site does not necessarily represent my employer's positions, strategies, or opinions.
-@@html:</center>@@
+#+begin_export html
+<center>
+  <font size="-1">
+    This site does not necessarily represent my employer's positions, strategies, or opinions.
+  </font>
+</center>
+#+end_export

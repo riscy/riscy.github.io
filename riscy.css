@@ -133,7 +133,6 @@ pre {
 
 pre.src {
   padding:5px;
-  margin-bottom: 3.0em;
 }
 
 code {
@@ -159,7 +158,6 @@ dd {
 }
 
 :target {
-    text-decoration: underline;
-    text-decoration-color: #fa3;
-    text-decoration-thickness: 0.2em;
+    background-color: yellow;
+    padding:0.1em 0.2em;
 }
