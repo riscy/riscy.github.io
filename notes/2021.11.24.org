@@ -1,0 +1,4 @@
+"It's common for people to use fixtures and factory libraries in order to reduce
+the tedium of setting up their data over and over again. This causes the tests
+to depend (in subtle and unintentional ways) on the details of the fixture
+data." ([[https://increment.com/testing/in-praise-of-property-based-testing/][In praise of property-based testing]])
