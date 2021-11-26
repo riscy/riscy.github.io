@@ -1,0 +1,4 @@
+"The crucial but unappreciated methodology driving predictive modeling's
+success... the /Common Task Framework/ (CTF)."  It is "a publicly available
+training dataset [plus] competitors whose common task is to infer a class
+prediction rule [plus] a testing dataset." ([[https://www.tandfonline.com/doi/full/10.1080/10618600.2017.1384734][50 Years of Data Science]])
