@@ -1,0 +1,4 @@
+"Rows are types, columns are operations.  [OOP] makes it easy to extend the
+table by adding new rows [types with /n/ methods].  A functional language
+instead encourages you to lump each column's worth of code together into a
+function [over /d/ types]."  ([[https://craftinginterpreters.com/representing-code.html#the-expression-problem][The Expression Problem]])
