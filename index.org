@@ -2,6 +2,7 @@
 
 #+TITLE: D. Chris Rayner
 #+AUTHOR: D. Chris Rayner
+#+SUBTITLE: [[https://github.com/riscy][github]] • [[https://linkedin.com/in/riscy][linkedin]] • [[https://github.com/riscy][google scholar]]
 #+OPTIONS: email:nil toc:nil author:t creator:t num:nil date:t html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="riscy.css"/>
 #+HTML_HEAD: <link rel="icon" type="image/png" href="favicon.ico"/>

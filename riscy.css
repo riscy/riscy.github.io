@@ -16,11 +16,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #0080c0;
+  color: #005090;
+  font-family: "Courier New", monospace
 }
 
 h1.title {
-  font-size:250%;
+  font-size:280%;
   margin-top:0.3em;
   margin-bottom:1.2em;
 }
@@ -62,8 +63,6 @@ img, a img {
 
 a {
   text-decoration:none;
-  font-weight:normal;
-  cursor:pointer;
   color: #0080c0;
 }
 
@@ -146,7 +145,7 @@ dt {
 }
 
 b {
-    color: #404040;
+  color: #005090;
 }
 
 dl dt a {
