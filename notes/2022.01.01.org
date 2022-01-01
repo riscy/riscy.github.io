@@ -1,0 +1,4 @@
+"Whenever two [aspects] must compose differently and yet be coordinated, we say
+that they /cross-cut/ each other.  Because [purely OOP/functional] languages
+provide only one composition mechanism, the programmer must do the
+co-composition manually." ([[https://www.cs.ubc.ca/~gregor/papers/kiczales-ECOOP1997-AOP.pdf][Aspect-Oriented Programming]])
