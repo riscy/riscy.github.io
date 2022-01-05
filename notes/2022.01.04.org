@@ -1,0 +1,4 @@
+"Almost any slog can be turned into a do-nothing script...  It feeds the user a
+step at a time and waits for them to complete each step manually... It lowers
+the activation energy for automating tasks, which allows the team to eliminate
+toil over time." ([[https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/][Do-nothing scripting]])
