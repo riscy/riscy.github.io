@@ -1,0 +1,4 @@
+"Avoiding writing code at all is especially important when we're navigating a
+new complex idea...  The fewer lines of code we write, the better chance we have
+of changing the feature later into what we discover it actually needs to do."
+([[https://deliverydoubled.com/code-is-a-liability/][Your code is a liability]])
