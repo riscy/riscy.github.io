@@ -1,0 +1,4 @@
+"We all make latency/throughput tradeoffs every day.  We bias these decisions
+towards throughput (I blame Taylorism).  High cost of delay, high chance of
+learning, and high rate of change all point towards prioritizing latency
+instead." ([[https://medium.com/@kentbeck_7670/inefficient-efficiency-5b3ab5294791][Inefficient Efficiency]])
