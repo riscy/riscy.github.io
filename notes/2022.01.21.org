@@ -1,0 +1,4 @@
+"Early abstractions are often not quite right, and therefore they create a
+catch-22. You can't create the right abstraction until you fully understand the
+code, but the existence of the wrong abstraction may prevent you from ever doing
+so." ([[https://sandimetz.com/99bottles][99 Bottles of OOP]])
