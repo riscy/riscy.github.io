@@ -1,0 +1,2 @@
+"The code can be copied once, but when the same code is used three times, it
+should be extracted into a new procedure." ([[https://wade.be/2019/12/10/rule-of-three.html][Rule of three]])
