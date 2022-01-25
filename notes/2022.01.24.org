@@ -1,0 +1,4 @@
+"This 'rule of three' states that if none of n patients shows the event about
+which we are concerned, we can be 95% confident that the chance of this event is
+at most three in n (ie, 3/n). In other words, the upper 95% confidence limit of
+a 0/n rate is approximately 3/n." ([[http://www.med.mcgill.ca/epidemiology/hanley/tmp/Proportion/zero_numerator.pdf][Zero Numerators]])
