@@ -1,0 +1,3 @@
+"Uncertainties [uncorrelated, random] add in quadrature... the more certain
+quantity contributes essentially nothing to the uncertainty of the sum."  ([[http://ipl.physics.harvard.edu/wp-uploads/2013/03/PS3_Error_Propagation_sp13.pdf][A
+Summary of Error Propagation]])
