@@ -1,0 +1,5 @@
+"[Make] performance comparisons based on the distribution of performance results
+obtained by Monte Carlo sampling of a small area of the space of possible
+configurations around each benchmark input...  To reproduce a result, another
+researcher need not set up an identical experiment, but only a similar one."
+([[https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.5910&rep=rep1&type=pdf][Applications of Randomness in System Performance Measurement]])
