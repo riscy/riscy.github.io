@@ -1,0 +1,4 @@
+"If you’ve observed 8 ravens and they’ve all been black, how certain should you
+be the next raven you see will also be black?  ... In general, the probability
+is (k+1)/(n+2) that the next observation will be positive, given k positive
+observations out of n total."  ([[https://jonathanweisberg.org/post/inductive-logic-2/][Laplace's Rule of Succession]])
