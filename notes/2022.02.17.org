@@ -1,0 +1,3 @@
+"There is a 93.75% chance that the median of a population is between the
+smallest and largest values in any random sample of five from that population."
+([[https://learning.oreilly.com/library/view/how-to-measure/9781118836446/c03.xhtml][Rule of Five]])
