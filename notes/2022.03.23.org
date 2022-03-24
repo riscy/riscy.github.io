@@ -1,0 +1,4 @@
+"A guess accurate to the nearest order of magnitude, i.e. rounded to the nearest
+power of 10 [is] bigger or smaller than the true answer by a factor of 3"; for
+"subestimates which are then multiplied together ... the variance (random
+variability) of subestimates adds up."  ([[https://hapax.github.io/physics/teaching/hacks/napkin-hacks/][Fermi Estimates]])
