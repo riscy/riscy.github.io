@@ -1,0 +1,5 @@
+When selecting subsets with a submodular monotonic objective, "in the worst case
+the greedy algorithm will be (1−1/e)≈0.63 away from the optimal
+solution. However, in practice it tends to perform much better than that
+[because] the algorithm is actually optimal for linear functions, and decays
+towards the worst-case bounds for nonlinear ones."  ([[https://people.csail.mit.edu/stefje/fall15/notes_lecture15.pdf][Submodular Maximization]])
