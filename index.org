@@ -18,17 +18,6 @@
 (riscy-io-compile-notes "./notes")
 #+end_src
 
-* Bookmarks
-
-- [[https://developers.google.com/machine-learning/guides/rules-of-ml/][Rules of Machine Learning]] :: 43 best practices couched in standardized
-     terminology, e.g. "The number of feature weights you can learn in a linear
-     model is roughly proportional to the amount of data you have."
-- [[https://www.quora.com/What-are-the-best-secrets-of-great-programmers/answer/Jens-Rantil][Best Kept Secrets of Great Programmers]] :: 39 software development tips as a
-     Quora answer, e.g. "Code paths that handle failures are rarely
-     tested/executed (for a reason). This makes them a good candidate for bugs."
-- [[https://www.infoq.com/articles/API-Design-Joshua-Bloch/][Bumper-Sticker API Design]] :: 38 API design tips, e.g. "Keep APIs
-     free of implementations details... be wary of overspecification."
-
 -----
 
 #+begin_export html

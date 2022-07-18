@@ -41,7 +41,7 @@ Call this from an org source block as follows:
       (when (string-match "^[^_]*\\.org$" org-file)
         (let ((basename (file-name-base org-file)))
           (format
-           "@@html:<a id=%s href=#%s><b>%s</b></a>@@\n%s\n\n"
+           "@@html:%s <a id=%s href=#%s>#</a>@@\n%s\n\n"
            basename basename basename
            (riscy-io-get-note
             (concat (file-name-as-directory directory) org-file))))))
