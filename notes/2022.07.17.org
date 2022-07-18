@@ -1,0 +1,3 @@
+Solving the equation [[http://www.math.iit.edu/~fass/477577_Chapter_5.pdf][Ax=b]] is faster than finding A^{-1} [and] you're still
+better off solving Ax=b than multiplying by A^{-1}, even if the computation of
+A^{-1} came for free.  ([[https://www.johndcook.com/blog/2010/01/19/dont-invert-that-matrix/][Don't invert that matrix]])
