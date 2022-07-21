@@ -1,0 +1,5 @@
+"Inexperienced users of statistics tend to take for granted the link between
+data and scientific issues and, as a result, may jump directly to a technique
+based on data structure rather than scientific goal... the key to principled
+statistical analysis is to bring analytic methods into close correspondence with
+scientific questions." ([[https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961][Ten Simple Rules for Effective Statistical Practice]])
