@@ -1,0 +1,5 @@
+Before automating the work, do it manually: "Opportunity to discover shortcuts
+before making a psychological commitment; task may turn out not to be worth
+automating; chance to discover which cases are common, which are rare; discovery
+is easier when done separately from automation; manual experience makes
+automation go more smoothly."  ([[https://www.youtube.com/watch?v=5o58SR_9Id0][#nocode: Do the work]])
