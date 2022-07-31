@@ -1,0 +1,4 @@
+"Being able to offload repetitive tasks to a program is one of the best things
+about knowing how to code.  However, sometimes problems can't be solved by
+automation. If you're willing to embrace the grind you'll look like a magician."
+([[https://jacobian.org/2021/apr/7/embrace-the-grind/][Embrace the Grind]])
