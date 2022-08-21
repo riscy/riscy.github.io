@@ -1,0 +1,4 @@
+"The stuff below you is huge at higher levels; the stuff below you is broken;
+everybody thinks high-level is easy, on the grounds that it's visibly /faster/;
+when you do something 'easy', too many people will tell you how it sucks, and
+you have to just live with that."  ([[http://yosefk.com/blog/low-level-is-easy.html][Low-level is easy]])
