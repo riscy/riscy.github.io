@@ -1,0 +1,3 @@
+"If it's a core business function -- do it yourself, no matter what.  Pick your
+core business competencies and goals, and do those in house."
+([[https://www.joelonsoftware.com/2001/10/14/in-defense-of-not-invented-here-syndrome/][In Defense of Not-Invented-Here Syndrome]])
