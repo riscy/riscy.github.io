@@ -1,4 +1,4 @@
-"It’s simpler to delete the code inside a function than it is to delete a
+"It's simpler to delete the code inside a function than it is to delete a
 function" ([[https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to][ibid]]). Compare with [[https://www.hyrumslaw.com/][Hyrum's Law]]: "With a sufficient number of users
 of an API, it does not matter what you promise in the contract: all observable
 behaviors of your system will be depended on by somebody."

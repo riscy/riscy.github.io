@@ -1,4 +1,4 @@
 Two identical functions can still be DRY when "the /knowledge/ they represent is
 different. [For example] when two functions validate two separate things that
-just happen to have the same rules. That’s a coincidence, not a duplication."
+just happen to have the same rules. That's a coincidence, not a duplication."
 ([[https://media.pragprog.com/titles/tpp20/dry.pdf][The Evils of Duplication]])

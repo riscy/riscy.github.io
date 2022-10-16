@@ -1,4 +1,4 @@
-One level of indentation per method; don’t use the ELSE keyword; wrap all
-primitives and strings; first class collections; one dot per line; don’t
+One level of indentation per method; don't use the ELSE keyword; wrap all
+primitives and strings; first class collections; one dot per line; don't
 abbreviate; keep all entities small; no classes with more than two instance
 variables; no getters/setters/properties ([[https://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf][Object Calisthenics]]).

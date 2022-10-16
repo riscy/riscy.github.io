@@ -1,4 +1,4 @@
-"Anything that isn’t crystal clear to a static analysis tool probably isn't
+"Anything that isn't crystal clear to a static analysis tool probably isn't
 clear to your fellow programmers, either", so "favor indexing over pointer
 arithmetic, try to keep your call graph inside a single source file, use
 explicit annotations, etc. " ([[https://www.gamasutra.com/view/news/128836/InDepth_Static_Code_Analysis.php][Static Code Analysis]])

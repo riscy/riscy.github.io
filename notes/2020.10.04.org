@@ -1,4 +1,4 @@
 "Get better at copy editing the hard way: by practicing. Start by acquiring a
 half-baked piece of writing from someone else and trying to improve it" -- "since
-you won’t be attached to it, your editing can be merciless." ([[https://blog.regehr.org/archives/1471][You Might as Well
+you won't be attached to it, your editing can be merciless." ([[https://blog.regehr.org/archives/1471][You Might as Well
 Be a Great Copy Editor]])

@@ -1,4 +1,4 @@
 /Destructive decoupling/ "leads to a situation where the code is indeed
-decoupled but at the same time doesn’t have a clear focus.  Its parts are
+decoupled but at the same time doesn't have a clear focus.  Its parts are
 separated from each other so much that it becomes hard or even impossible to
 grasp their meaning."  ([[https://enterprisecraftsmanship.com/posts/cohesion-coupling-difference/][Cohesion and Coupling: the difference]])

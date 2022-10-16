@@ -1,4 +1,4 @@
 "Exceptions eliminate collocation. You have to look somewhere else to answer a
-question of whether code is doing the right thing, so you’re not able to take
-advantage of your eye’s built-in ability to learn to see wrong code, because
-there’s nothing to see." ([[https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/][Making Wrong Code Look Wrong]])
+question of whether code is doing the right thing, so you're not able to take
+advantage of your eye's built-in ability to learn to see wrong code, because
+there's nothing to see." ([[https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/][Making Wrong Code Look Wrong]])

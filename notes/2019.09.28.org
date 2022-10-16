@@ -1,4 +1,4 @@
 "The act of writing software is the act of naming, repeated over and over
-again. It’s likely that software engineers create more names than any other
-profession. Given this, it’s curious how little time is spent discussing names
+again. It's likely that software engineers create more names than any other
+profession. Given this, it's curious how little time is spent discussing names
 in a typical computer science education." ([[https://leanpub.com/elementsofclojure][Elements of Clojure]])
