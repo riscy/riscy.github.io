@@ -1,0 +1,4 @@
+"We do programmers a disservice when we act as if the conversation about the
+growing threat of legacy code begins and ends with COBOL...  The real horseman
+of the legacy apocalypse is the depth of the dependency tree."
+([[https://medium.com/the-technical-archaeologist/old-code-gets-younger-every-year-3bd24c7f2262][Old Code Gets Younger Every Year]])
