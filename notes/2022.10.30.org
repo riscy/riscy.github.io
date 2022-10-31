@@ -1,0 +1,4 @@
+"There is value in having consistency across the whole codebase, even if locally
+it means something is written sub-optimally. An inconsistent codebase is harder
+to read and understand (see point #1), write, and improve using automated
+tools." ([[https://quoraengineering.quora.com/Moving-Fast-With-High-Code-Quality?comment_id=1369357&comment_type=3][Quora's principles for code quality]])
