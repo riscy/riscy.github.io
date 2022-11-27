@@ -1,0 +1,4 @@
+"While old code is likely to be good code in the sense that it has low
+maintenance costs and low defect risk, the same reasoning doesn't apply to test
+cases.  Test cases tend to grow old in the sense that they become less likely to
+identify failures." ([[https://learning.oreilly.com/library/view/software-design-x-rays/][Your Best Bug Fix is Time]])
