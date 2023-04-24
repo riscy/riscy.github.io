@@ -1,0 +1,6 @@
+"'Desk checking' (proof reading) is almost a lost art in 1993.  Too bad.  You
+should desk check your code before even compiling it, and desk-check it again
+periodically to keep it fresh in mind and find new errors.  If you have someone
+in your group whose ONLY job it is to desk-check other people's code, that
+person will find and fix more bugs than everyone else combined.  ([[https://github.com/alexmchale/merc-mud/blob/master/doc/hacker.txt][merc's
+hacker.txt]])
