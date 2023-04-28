@@ -1,0 +1,4 @@
+"Bottlenecks do exist. We should hunt them down and optimize them. But that's
+not what the [performance] hotspot model predicts: it predicts that it is all
+you need to do to get performance... Sadly, it does not work."
+([[https://lemire.me/blog/2023/04/27/hotspot-performance-engineering-fails/][Hotspot Performance Engineering Fails]])

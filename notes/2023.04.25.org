@@ -1,4 +1,4 @@
-"A hotspot is code with high development activity and frequent churn.  It's code
-that's worked on often, and hence code that has to be read and understood
-frequently... often just 1-3% of the total code size."
-([[https://www.adamtornhill.com/articles/code-quality-in-context/why-i-write-dirty-code.html][Why I Write Dirty Code: Code Quality in Context]])
+"A [readability] hotspot is code with high development activity and frequent
+churn.  It's code that's worked on often, and hence code that has to be read and
+understood frequently... often just 1-3% of the total code size."  ([[https://www.adamtornhill.com/articles/code-quality-in-context/why-i-write-dirty-code.html][Why I Write
+Dirty Code: Code Quality in Context]])
