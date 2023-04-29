@@ -1,0 +1,4 @@
+"Software performance today is not about learning to hand-write assembly
+language.  It's more about learning to /read/ things like assembly language, so
+you can understand how much actual work you are generating for the hardware."
+([[https://www.computerenhance.com/p/performance-excuses-debunked][Performance Excuses Debunked]])
