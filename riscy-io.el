@@ -4,7 +4,6 @@
 
 ;; This file is expected to be run using "emacs --script riscy-io.el":
 ;; - Installs "htmlize" (if it isn't installed already)
-;; - Defines `riscy-io-get-note' and `riscy-io-compile-notes'
 ;; - Exports every file listed in `command-line-args'
 
 ;;; Code:
@@ -38,7 +37,7 @@ Call this from an org source block as follows:
   (string-trim
    (mapconcat
     (lambda (org-file)
-      (when (string-match "^[^_]*\\.org$" org-file)
+      (when (string-match "^[^_].*\\.org$" org-file)
         (let ((basename (file-name-base org-file)))
           (format
            "@@html:%s <a id=%s href=#%s>#</a>@@\n%s\n\n"
