@@ -1,0 +1,2 @@
+"Code paths that handle failures are rarely tested/executed (for a reason). This
+makes them a good candidate for bugs." ([[https://www.quora.com/What-are-the-best-secrets-of-great-programmers/answer/Jens-Rantil][39 Best Kept Secrets of Great Programmers]])
