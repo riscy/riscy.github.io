@@ -1,0 +1,4 @@
+"Proving an algorithm correct does not mean its /implementation/ on a real
+system will necessarily always behave correctly [but] can uncover problems in an
+algorithm that might remain hidden for a long time in a real system."
+([[https://dataintensive.net/][Designing Data-Intensive Applications]])
