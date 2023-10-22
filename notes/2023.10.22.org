@@ -1,0 +1,4 @@
+"Raw data do not uniquely give rise to a single data set for analysis but rather
+to multiple alternatively processed data sets depending on the specific
+combination of choices... researchers should perform a multiverse analysis."
+([[https://journals.sagepub.com/doi/10.1177/1745691616658637][Increasing Transparency Through a Multiverse Analysis]])
