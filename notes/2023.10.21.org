@@ -1,0 +1,6 @@
+"It is unacceptably easy to publish 'statistically significant' evidence
+consistent with /any/ hypothesis.  The culprit is a construct we refer to as
+/researcher degrees of freedom/, [for example] (a) choosing among dependent
+variables, (b) choosing sample size, (c) using covariates, (c) and reporting
+subsets of experimental conditions."
+([[https://journals.sagepub.com/doi/10.1177/0956797611417632][False-Positive Psychology: Undisclosed Flexibility...]])
