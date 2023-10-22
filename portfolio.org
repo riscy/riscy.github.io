@@ -211,6 +211,9 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
     Burch, Darse Billings, *Chris Rayner*. Proceedings of the Twenty-First
     Conference on Uncertainty in Artificial Intelligence (UAI), 2005.
 * BibTeX Entries
+  :PROPERTIES:
+  :CUSTOM_ID: bibtex
+  :END:
 
   #+name: bibtex_ohs
   #+begin_src bibtex

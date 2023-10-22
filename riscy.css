@@ -1,5 +1,14 @@
 /* -*- eval: (rainbow-mode 1) -*- */
 
+/* https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41 
+html {
+  max-width: 80ch;
+  padding: 0em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.2em;
+} */
+
 body {
   margin:0;
   font:90% "Verdana", sans-serif;
