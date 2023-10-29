@@ -1,0 +1,4 @@
+"Using sophisticated statistical scaffolding clouds our judgement. We end up
+using statistical methods as a crutch, not to dig signals out of noise, but to
+convince ourselves of signals when there are none."
+([[http://www.argmin.net/2021/09/13/effect-size/][Effect size is significantly more important than statistical significance]])
