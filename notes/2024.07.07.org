@@ -1,0 +1,5 @@
+Context -- "the unique information inside a software company that is necessary
+to make good decisions while delivering a product... Without context embedded
+in teams, high context individuals become gatekeepers, not enablers."
+([[https://staysaasy.com/software/2022/07/06/Context.html][Low Context - Software's Silent Killer]])
+
