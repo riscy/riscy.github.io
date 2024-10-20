@@ -1,0 +1,4 @@
+"Existing code exerts a powerful influence; technical excellence can be shadowed
+by bad personal skills; teaching is a form of learning in disguise; stick to
+boring technology; don't pick a solution until you've thought of at least one
+more..." ([[https://martinrue.com/my-engineering-axioms/][Martin Rue's Engineering Axioms]])
