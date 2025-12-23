@@ -3,14 +3,14 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-10-21 Sat 23:00 -->
+<!-- 2025-12-23 Tue 13:30 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Portfolio</title>
-<meta name="generator" content="Org mode" />
 <meta name="author" content="D. Chris Rayner" />
+<meta name="generator" content="Org Mode" />
 <style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -31,8 +31,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -41,21 +42,21 @@
   pre.src {
     position: relative;
     overflow: auto;
-    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
   pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -190,35 +191,12 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
-  /*]]>*/-->
+  .org-svg { }
 </style>
 <link rel="stylesheet" type="text/css" href="riscy.css"/>
-<script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
-<!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
-</script>
 </head>
 <body>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">Portfolio
 <br />
 <span class="subtitle"><a href="https://riscy.io">← riscy.io</a></span>
@@ -237,7 +215,6 @@ and <a href="https://scholar.google.com/citations?user=zkQRfk4AAAAJ">Google Scho
 </p>
 
 <hr />
-
 <div id="outline-container-metadata_and_data_governance" class="outline-2">
 <h2 id="metadata_and_data_governance">IBM Chief Data Office</h2>
 <div class="outline-text-2" id="text-metadata_and_data_governance">
@@ -307,7 +284,6 @@ wrapped in a microservice to help detect this spam.</dd>
 </dl>
 </div>
 </div>
-
 <div id="outline-container-optimization_heuristic_search" class="outline-2">
 <h2 id="optimization_heuristic_search">Optimization for Heuristic Search</h2>
 <div class="outline-text-2" id="text-optimization_heuristic_search">
@@ -329,7 +305,7 @@ courtesy Nathan Sturtevant).
 </p>
 
 
-<div id="org93f7539" class="figure">
+<div id="org5deb721" class="figure">
 <p><img src="img/heuristic_optimization.png" alt="A curved floorplan from a video game unfolds into a hallway" width="50%" />
 </p>
 </div>
@@ -342,16 +318,16 @@ and boosted search performance in several domains.
 </p>
 <ul class="org-ul">
 <li><a href="./pdf/RaynerEtAl-11.pdf">Euclidean Heuristic Optimization</a>
-(<a href="./pdf/RaynerEtAl-11_slides.pdf">slides</a>, <a href="./pdf/RaynerEtAl-11_poster.pdf">poster</a>, <a href="#org10b3f1b">bib</a>)
+(<a href="./pdf/RaynerEtAl-11_slides.pdf">slides</a>, <a href="./pdf/RaynerEtAl-11_poster.pdf">poster</a>, <a href="#org3d6f06f">bib</a>)
 <b>Chris Rayner</b>, Michael Bowling, Nathan Sturtevant.  Proceedings of the
 Twenty-Fifth National Conference on Artificial Intelligence
 (AAAI), 2011.</li>
 <li><a href="./pdf/RaynerEtAl-13.pdf">Subset Selection of Search Heuristics</a>
-(<a href="./pdf/RaynerEtAl-13_poster.pdf">poster</a>, <a href="#orgfe7929b">bib</a>) <br />
+(<a href="./pdf/RaynerEtAl-13_poster.pdf">poster</a>, <a href="#orgb026f53">bib</a>) <br />
 <b>Chris Rayner</b>, Nathan Sturtevant, Michael Bowling.  Proceedings of the
 International Joint Conference on Artificial Intelligence (IJCAI), 2013.</li>
 <li><a href="pdf/phd_thesis.pdf">Optimization for Heuristic Search</a>
-(<a href="#orgff327a8">bib</a>) <br />
+(<a href="#org501126d">bib</a>) <br />
 <b>Chris Rayner</b>.  Ph.D. Thesis, University of Alberta, Edmonton, AB, Canada, 2014.</li>
 </ul>
 </div>
@@ -377,7 +353,7 @@ actions (cold colors), followed by another choice&#x2026;
 </p>
 
 
-<div id="orgc08a824" class="figure">
+<div id="org6c78e0f" class="figure">
 <p><img src="img/entropy_visualization.png" alt="Heatmap showing entropy in different areas of a map" width="50%" />
 </p>
 </div>
@@ -392,7 +368,7 @@ player movement and classifiers to distinguish human and machine play.
 
 <ul class="org-ul">
 <li><a href="./pdf/msc_thesis.pdf">Analysing Openings in Tactical Simulations</a>
-(<a href="#orgff06c8e">bib</a>) <br />
+(<a href="#org0935511">bib</a>) <br />
 <b>Chris Rayner</b>. M.Sc. Thesis, University of Alberta, Edmonton, AB, Canada, 2008.</li>
 <li>This work was featured among the original illustrations in IEEE Spectrum
 Magazine's December 2008 article, <a href="http://spectrum.ieee.org/computing/software/bots-get-smart">Bots Get Smart</a> (Jonathan Schaeffer, Vadim
@@ -400,9 +376,9 @@ Bulitko, and Michael Buro).</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgdc6f88b" class="outline-2">
-<h2 id="orgdc6f88b">Emacs Packages</h2>
-<div class="outline-text-2" id="text-orgdc6f88b">
+<div id="outline-container-org3aaccb2" class="outline-2">
+<h2 id="org3aaccb2">Emacs Packages</h2>
+<div class="outline-text-2" id="text-org3aaccb2">
 <p>
 I'm a regular reviewer of new packages on <a href="https://melpa.org">MELPA</a>.  I also maintain a couple of
 my own that improve Emacs's REPLs (<code>shell-mode</code> but also
@@ -444,7 +420,7 @@ nonlinear dimensionality reduction.</dd>
 pathfinder in grad school.  Here's a list of ways to improve your A*
 implementation, focusing on pathfinding on four- and eight-connected
 grids.  It's pitched at hobbyists and anyone looking for ways to make
-their existing code a bit faster, and has <a href="https://github.com/riscy/a_star_on_grids/tree/master/src">accompanying code in C++</a>.</dd>
+their existing code a bit faster, and has <a href="https://github.com/riscy/a_star_on_grids/tree/main/src">accompanying code in C++</a>.</dd>
 </dl>
 
 <p>
@@ -454,26 +430,26 @@ robotics, and real-time heuristic search:
 </p>
 <ul class="org-ul">
 <li><a href="./pdf/BulitkoEtAl-12.pdf">On Case Base Formation in Real-Time Heuristic Search</a>
-(<a href="#orgea5d380">bib</a>) <br />
+(<a href="#org4f1dc76">bib</a>) <br />
 Vadim Bulitko, <b>Chris Rayner</b>, Ramon Lawrence. Proceedings of the Artificial
 Intelligence and Interactive Digital Entertainment Conference (AIIDE), 2012.</li>
 <li><a href="./pdf/Rayner-09.pdf">Evolving Feature Selectors to Inform Compiler Optimizations</a>
-(<a href="#orgfc5f97c">bib</a>) <br />
+(<a href="#org0def2e5">bib</a>) <br />
 <b>Chris Rayner</b>.  A final project report describing an emulation of
 Leather <i>et al</i>.'s 2009 work.  For the course <i>Machine Learning and
 Optimizing Compilers</i>. University of Alberta, 2009.</li>
 <li><a href="./pdf/BellemareEtAl-09.pdf">The Critterbot: a Subjective Robotic Project</a>
-(<a href="#org4b74081">bib</a>) <br />
+(<a href="#orga1c0eda">bib</a>) <br />
 Marc Bellemare, Michael Bowling, Thomas Degris, Anna Koop, <b>Chris Rayner</b>,
 Michael Sokolsky, Richard Sutton, Adam White, Eric Wiewiora.
 Multidisciplinary Symposium on Reinforcement Learning (MSRL), 2009.</li>
 <li><a href="./pdf/RaynerEtAl-07.pdf">Real-Time Heuristic Search with a Priority Queue</a>
-(<a href="#org646ebea">bib</a>) <br />
+(<a href="#org89c5c49">bib</a>) <br />
 <b>Chris Rayner</b>, Katherine Davison, Vadim Bulitko, Kenneth Anderson, Jieshan
 Lu.  Proceedings of the Twentieth International Joint Conference on Artificial
 Intelligence (IJCAI), 2007.</li>
 <li><a href="./pdf/SoutheyEtAl-05.pdf">Bayes' Bluff: Opponent Modelling in Poker</a>
-(<a href="#orgf11e276">bib</a>) <br />
+(<a href="#org62883c0">bib</a>) <br />
 Finnegan Southey, Michael Bowling, Bryce Larson, Carmelo Piccione, Neil
 Burch, Darse Billings, <b>Chris Rayner</b>. Proceedings of the Twenty-First
 Conference on Uncertainty in Artificial Intelligence (UAI), 2005.</li>
@@ -484,7 +460,7 @@ Conference on Uncertainty in Artificial Intelligence (UAI), 2005.</li>
 <h2 id="bibtex">BibTeX Entries</h2>
 <div class="outline-text-2" id="text-bibtex">
 <div class="org-src-container">
-<pre class="src src-bibtex" id="orgff327a8"><span style="font-weight: bold;">@PhdThesis</span>{<span style="font-weight: bold; text-decoration: underline;">Rayner-14</span>,
+<pre class="src src-bibtex" id="org501126d"><span style="font-weight: bold;">@PhdThesis</span>{<span style="font-weight: bold; text-decoration: underline;">Rayner-14</span>,
   <span style="font-weight: bold; font-style: italic;">title</span>        = {Optimization for Heuristic Search},
   <span style="font-weight: bold; font-style: italic;">author</span>       = {Chris Rayner},
   <span style="font-weight: bold; font-style: italic;">school</span>       = {University of Alberta},
@@ -495,7 +471,7 @@ Conference on Uncertainty in Artificial Intelligence (UAI), 2005.</li>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-bibtex" id="orgfe7929b"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">RaynerEtAl-13</span>,
+<pre class="src src-bibtex" id="orgb026f53"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">RaynerEtAl-13</span>,
   <span style="font-weight: bold; font-style: italic;">title</span>        = {Subset Selection of Search Heuristics},
   <span style="font-weight: bold; font-style: italic;">author</span>       = {Chris Rayner and Nathan Sturtevant and Michael Bowling},
   <span style="font-weight: bold; font-style: italic;">booktitle</span>    = {Proceedings of the International Joint Conference on
@@ -511,7 +487,7 @@ Conference on Uncertainty in Artificial Intelligence (UAI), 2005.</li>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-bibtex" id="orgea5d380"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">BulitkoEtAl-12</span>,
+<pre class="src src-bibtex" id="org4f1dc76"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">BulitkoEtAl-12</span>,
   <span style="font-weight: bold; font-style: italic;">title</span>        = {On Case Base Formation in Real-Time Heuristic Search},
   <span style="font-weight: bold; font-style: italic;">author</span>       = {Vadim Bulitko and Chris Rayner and Ramon Lawrence},
   <span style="font-weight: bold; font-style: italic;">booktitle</span>    = {Proceedings of the Artificial Intelligence and
@@ -523,7 +499,7 @@ Conference on Uncertainty in Artificial Intelligence (UAI), 2005.</li>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-bibtex" id="org10b3f1b"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">RaynerEtAl-11</span>,
+<pre class="src src-bibtex" id="org3d6f06f"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">RaynerEtAl-11</span>,
   <span style="font-weight: bold; font-style: italic;">title</span>                   = {Euclidean Heuristic Optimization},
   <span style="font-weight: bold; font-style: italic;">author</span>                  = {Chris Rayner and Michael Bowling and Nathan Sturtevant},
   <span style="font-weight: bold; font-style: italic;">booktitle</span>               = {Proceedings of the Twenty-Fifth National Conference on
@@ -539,7 +515,7 @@ Conference on Uncertainty in Artificial Intelligence (UAI), 2005.</li>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-bibtex" id="orgfc5f97c"><span style="font-weight: bold;">@report</span>{<span style="font-weight: bold; text-decoration: underline;">Rayner-09</span>,
+<pre class="src src-bibtex" id="org0def2e5"><span style="font-weight: bold;">@report</span>{<span style="font-weight: bold; text-decoration: underline;">Rayner-09</span>,
   <span style="font-weight: bold; font-style: italic;">title</span>       = {Evolving Feature Selectors to Inform Compiler Optimizations},
   <span style="font-weight: bold; font-style: italic;">author</span>      = {Chris Rayner},
   <span style="font-weight: bold; font-style: italic;">institution</span> = {University of Alberta},
@@ -550,7 +526,7 @@ Conference on Uncertainty in Artificial Intelligence (UAI), 2005.</li>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-bibtex" id="org4b74081"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">BellemareEtAl-09</span>,
+<pre class="src src-bibtex" id="orga1c0eda"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">BellemareEtAl-09</span>,
   <span style="font-weight: bold; font-style: italic;">title</span>        = {The Critterbot: a Subjective Robotic Project},
   <span style="font-weight: bold; font-style: italic;">author</span>       = {Marc Bellemare and Michael Bowling and Thomas Degris
                   and Anna Koop and Chris Rayner and Michael Sokolsky
@@ -562,7 +538,7 @@ Conference on Uncertainty in Artificial Intelligence (UAI), 2005.</li>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-bibtex" id="orgff06c8e"><span style="font-weight: bold;">@MastersThesis</span>{<span style="font-weight: bold; text-decoration: underline;">Rayner-08</span>,
+<pre class="src src-bibtex" id="org0935511"><span style="font-weight: bold;">@MastersThesis</span>{<span style="font-weight: bold; text-decoration: underline;">Rayner-08</span>,
   <span style="font-weight: bold; font-style: italic;">title</span>        = {Analysing Openings in Tactical Simulations},
   <span style="font-weight: bold; font-style: italic;">author</span>       = {Chris Rayner},
   <span style="font-weight: bold; font-style: italic;">school</span>       = {University of Alberta},
@@ -574,7 +550,7 @@ Conference on Uncertainty in Artificial Intelligence (UAI), 2005.</li>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-bibtex" id="org646ebea"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">RaynerEtAl-07</span>,
+<pre class="src src-bibtex" id="org89c5c49"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">RaynerEtAl-07</span>,
   <span style="font-weight: bold; font-style: italic;">title</span>        = {Real-Time Heuristic Search with a Priority Queue},
   <span style="font-weight: bold; font-style: italic;">author</span>       = {Chris Rayner and Katherine Davison and Vadim Bulitko and Kenneth
                   Anderson and Jieshan Lu},
@@ -588,7 +564,7 @@ Conference on Uncertainty in Artificial Intelligence (UAI), 2005.</li>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-bibtex" id="orgf11e276"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">SoutheyEtAl-05</span>,
+<pre class="src src-bibtex" id="org62883c0"><span style="font-weight: bold;">@inproceedings</span>{<span style="font-weight: bold; text-decoration: underline;">SoutheyEtAl-05</span>,
   <span style="font-weight: bold; font-style: italic;">title</span>        = {Bayes' Bluff: Opponent Modelling in Poker},
   <span style="font-weight: bold; font-style: italic;">author</span>       = {Finnegan Southey and Michael Bowling and Bryce Larson and
                   Carmelo Piccione and Neil Burch and Darse Billings and Chris

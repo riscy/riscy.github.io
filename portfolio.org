@@ -181,7 +181,7 @@ and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
        pathfinder in grad school.  Here's a list of ways to improve your A\star
        implementation, focusing on pathfinding on four- and eight-connected
        grids.  It's pitched at hobbyists and anyone looking for ways to make
-       their existing code a bit faster, and has [[https://github.com/riscy/a_star_on_grids/tree/master/src][accompanying code in C++]].
+       their existing code a bit faster, and has [[https://github.com/riscy/a_star_on_grids/tree/main/src][accompanying code in C++]].
 
   Beyond those listed above, I'm grateful to have been a part of a number of
   other projects spanning computer poker, optimizing compilers, subjective
