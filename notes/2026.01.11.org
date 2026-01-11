@@ -1,0 +1,5 @@
+"'Writing' a sentence is an evolutionary process in which generations of
+imperfectly adapted sentences arise, survive numerous trials, and settle into a
+potential habitat, only to die off again and again, sometimes dooming the entire
+ecosystem in the process, all in the service of formulating the fittest
+expression." ([[https://hedgehogreview.com/web-features/thr/posts/field-notes-of-a-sentence-watcher][Field Notes of a Sentence Watcher]])
