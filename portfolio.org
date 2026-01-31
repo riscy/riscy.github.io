@@ -9,9 +9,9 @@
 # preview
 I'm a [[https://riscy.io/#2020.08.11][computing scientist]] interested in software quality and all sorts of
 problems in optimization and search.  I completed my PhD in 2014 at the
-[[https://cs.ualberta.ca][University of Alberta]], where I machine-learned pathfinding heuristics.  Since
-then I worked with a great team on advancing the search engine at [[https://dissolve.com][Dissolve]], and
-today I lead a team in Applied AI/ML at [[https://ibm.com][IBM]] Enterprise Data.
+[[https://cs.ualberta.ca][University of Alberta]], where I machine-learned pathfinding heuristics.
+Since then, I worked on advancing the search engine at [[https://dissolve.com][Dissolve]], and today
+I work in applied AI and machine learning at [[https://ibm.com][IBM]]'s Chief Data Office.
 
 This is a portfolio of recent work.  You can also find me on [[https://github.com/riscy][GitHub]], [[https://linkedin.com/in/riscy/][LinkedIn]],
 and [[https://scholar.google.com/citations?user=zkQRfk4AAAAJ][Google Scholar]].
