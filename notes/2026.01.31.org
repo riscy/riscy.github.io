@@ -1,0 +1,4 @@
+"Resistance is a resource... it's information you didn't have.  You can push
+back, or you can listen to it, and try to hear what it's really telling you.
+And fix it."  For example, "if testing seems hard, there's something wrong with
+your design." ([[https://www.youtube.com/watch?v=v-2yFMzxqwU&t=1109][Resistance]])
