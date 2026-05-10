@@ -1,6 +1,6 @@
-The basic problem learners confront is that we can easily be misled as to
+"The basic problem learners confront is that we can easily be misled as to
 whether we are learning effectively...  Conditions of learning that make
 performance improve rapidly often fail to support long-term retention and
 transfer, whereas conditions that create challenges and slow the rate of
-apparent learning often optimize long-term retention and transfer.
+apparent learning often optimize long-term retention and transfer."
 ([[https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf][Desirable Difficulties]])
