@@ -1,0 +1,5 @@
+"If I was ninety percent done, he would try to correct me on every little detail
+possible because otherwise a typo might make it into production.  But if I had
+told him I was only thirty percent done, he would gloss over the tiny mistakes
+[and] would engage in broader conversations about what the product should be."
+([[https://web.archive.org/web/20201204025239/https://42floors.com/blog/startups/thirty-percent-feedback][Thirty Percent Feedback]])
