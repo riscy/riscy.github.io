@@ -1,0 +1,4 @@
+"'Old-fashioned' apps continue to work forever, as long as you have a copy of
+the data and some way of running the software... Even if the operating system
+and the computer it runs on become obsolete, you can still run the software in a
+virtual machine or emulator." ([[https://www.inkandswitch.com/essay/local-first/#5-the-long-now][Local-first software]])
