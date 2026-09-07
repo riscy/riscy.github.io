@@ -1,0 +1,4 @@
+"When you focus on achieving a single measure of success, you may succeed but you
+will do that at the expense of everything else that was not captured by your
+measure. So you hit the target but you miss the point and you see this all the
+time on Kaggle for instance." ([[https://www.ycombinator.com/library/Md-fran-ois-chollet-the-arc-prize-how-we-get-to-agi][The Shortcut Rule]])
