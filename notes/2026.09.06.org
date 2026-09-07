@@ -1,0 +1,6 @@
+Working code isn't enough;
+the most important thing is the long-term structure of the system;
+complexity is incremental;
+small dependencies and obscurities build up over time;
+if you're not making the design better, you're probably making it worse.
+([[https://web.stanford.edu/~ouster/cgi-bin/aposd.php][A Philosophy of Software Design]])
