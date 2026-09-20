@@ -1,0 +1,3 @@
+"When you push /yourself/ beyond your carrying capacity, you likely won't even
+notice [security issues, productivity issues, usability issues, trust issues]."
+([[https://www.macchaffee.com/blog/2022/carrying-capacity/][Know your carrying capacity]])
