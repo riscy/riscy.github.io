@@ -1,0 +1,5 @@
+"Solutions lie on a spectrum [undesirable novel solutions/desirable novel
+solutions], and we don't have an objective way to distinguish between them... as
+tasks grow too complex to consider every detail, researchers are more likely to
+introduce incorrect assumptions during specification design."
+([[https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/][Specification gaming]])
