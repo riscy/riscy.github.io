@@ -1,0 +1,7 @@
+"What you do is pretend this is a high school math problem with a single right
+answer, you solve for the right answer using high school math, and then nobody
+can argue with you because apparently you haven't made a decision.  You've simply
+followed the data.  This is a massive problem in decision-making.  We try to
+close down the solution space of any problem in order to arrive at a single
+right answer that is difficult to argue with."
+([[https://behavioralscientist.org/are-we-too-impatient-to-be-intelligent/][Are We Too Impatient to Be Intelligent?]])
